@@ -1,0 +1,15 @@
+{{ define "main" }}
+<h2>Categories</h2>
+<ul>
+    {{ range .Site.Taxonomies.categories }}
+    <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a> ({{ .Count }})</li>
+    {{ end }}
+</ul>
+<h2>All articles</h2>
+<h3>2022</h3>
+<ul>
+    {{ range (where .Site.RegularPages "Type" "in" "articles") }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ end }}
+</ul>
+{{ end }}

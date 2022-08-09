@@ -2,3 +2,6 @@ baseURL = 'http://stanhoenson.xyz/'
 languageCode = 'en-us'
 title = 'Stan Hoenson'
 theme = 'almost-plain'
+[taxonomies]
+    category = 'categories'
+    tag = 'tags'
