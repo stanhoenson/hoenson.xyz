@@ -1,0 +1,16 @@
+body {
+    max-width: 38em;
+    margin: 0 auto;
+    padding: 1em;
+    font-family: arial, sans-serif;
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
