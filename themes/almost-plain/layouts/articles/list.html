@@ -8,7 +8,7 @@
 <h2>All articles</h2>
 <h3>2022</h3>
 <ul>
-    {{ range (where .Site.RegularPages "Type" "in" "articles") }}
+    {{ range (where .Site.RegularPages "Section" "articles").ByDate }}
     <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
     {{ end }}
 </ul>

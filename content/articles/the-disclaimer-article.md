@@ -1,6 +1,7 @@
 ---
-title: "The Disclaimer Article"
-date: 2022-08-09T12:48:09+02:00
+title: "The disclaimer article"
+date: 2022-08-09
+year: 2022
 draft: false
 categories:
 - General
