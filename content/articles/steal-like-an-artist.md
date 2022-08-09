@@ -1,12 +1,13 @@
 ---
 title: "Steal like an artist"
+header: "Articles"
 date: 2022-08-08
-year: 2022
 draft: false
 categories:
 - Creativity
 - Life
 tags:
+- Originality
 ---
 
 ### Nothing is original

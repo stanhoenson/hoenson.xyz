@@ -1,5 +1,6 @@
 ---
 title: "The disclaimer article"
+header: "Articles"
 date: 2022-08-09
 year: 2022
 draft: false
@@ -12,6 +13,8 @@ tags:
 ---
 
 ### Non-duality
+Lorem ipsum dolor sit amet consectetur adipisicing elit.
+Rem eligendi soluta sint reprehenderit officia sit tenetur saepe ipsam repudiandae provident!
 Lorem ipsum dolor sit amet consectetur adipisicing elit.
 Rem eligendi soluta sint reprehenderit officia sit tenetur saepe ipsam repudiandae provident!
 

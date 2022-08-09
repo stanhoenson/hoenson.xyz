@@ -3,7 +3,9 @@
     {{- partial "head.html" . -}}
     <body>
         {{- partial "header.html" . -}}
-        {{- partial "nav.html" . -}}
+        {{ if ne .Params.header "Articles" }}
+            {{- partial "nav.html" . -}}
+        {{ end }}
         <div id="content">
         {{- block "main" . }}{{- end }}
         </div>
