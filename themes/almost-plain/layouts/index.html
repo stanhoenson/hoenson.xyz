@@ -1,3 +1,9 @@
 {{ define "main" }}
     {{ .Content }}
+    <h2>Recent articles</h2>
+    <ul>
+        {{ range first 5 (where .Site.RegularPages "Type" "in" "articles") }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+    </ul>
 {{ end }}
