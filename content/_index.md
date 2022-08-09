@@ -1,3 +1,9 @@
+---
+title: "Home"
+date: 2022-08-09T09:10:37+02:00
+draft: false
+---
+
 ## Welcome!
 The purpose of this website is for me to have a central place for sharing my work and who I am. 
 I want to get better at certain crafts and try new things. 
