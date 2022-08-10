@@ -4,14 +4,17 @@
 <p>Categorized under:</p>
 <ul>
     {{ range .GetTerms "categories" }}
-    <li>
-        <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
-    </li>
+        {{ $category := .LinkTitle | lower }}
+        {{ $count := .Site.Taxonomies.categories.life.Count }}
+        <li>
+            <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+            ({{ $count }})
+        </li>
     {{ end }}
 </ul>
 {{ .Content }}
 <h2>Discuss</h2>
-<p>Have any thoughts or comments to share? Email me: contact@stanhoenson.xyz.
+<p>Have any thoughts or comments to share? Email me: <strong>contact@stanhoenson.xyz</strong>.</p>
 <p>Also, this article is tagged with:</p>
 <ul>
     {{ range .GetTerms "tags" }}

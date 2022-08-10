@@ -2,14 +2,19 @@
 <h2>Categories</h2>
 <ul>
     {{ range .Site.Taxonomies.categories }}
-    <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a> ({{ .Count }})</li>
+    <li>
+        <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+        ({{ .Count }})
+    </li>
     {{ end }}
 </ul>
 <h2>All articles</h2>
 <h3>2022</h3>
 <ul>
-    {{ range (where .Site.RegularPages "Section" "articles").ByDate }}
-    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ range (where .Site.RegularPages "Section" "articles").ByDate.Reverse }}
+        {{ if eq .Date.Year 2022 }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
     {{ end }}
 </ul>
 {{ end }}
