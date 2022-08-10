@@ -1,6 +1,6 @@
 * {
-    background-color: hsl(0, 0%, 10%);
-    color: hsl(0, 0%, 95%)
+    /* background-color: hsl(0, 0%, 10%); */
+    /* color: hsl(0, 0%, 95%); */
 }
 
 body {
@@ -14,7 +14,8 @@ body {
 
 a {
     text-decoration: none;
-    color: hsl(200, 100%, 65%);
+    color: hsl(230, 100%, 50%);
+    /* color: hsl(200, 100%, 65%); */
 }
 
 a:hover {
@@ -24,5 +25,6 @@ a:hover {
 hr { 
     border: none;
     padding-top: 1px;
-    background-color: hsl(0, 0%, 40%);
+    background-color: hsl(0, 0%, 80%);
+    /* background-color: hsl(0, 0%, 40%); */
 }
