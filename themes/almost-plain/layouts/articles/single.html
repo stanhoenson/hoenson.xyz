@@ -4,8 +4,7 @@
 <p>Categorized under:</p>
 <ul>
     {{ range .GetTerms "categories" }}
-        {{ $category := .LinkTitle | lower }}
-        {{ $count := .Site.Taxonomies.categories.life.Count }}
+        {{ $count := .Pages | len }}
         <li>
             <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
             ({{ $count }})
@@ -18,7 +17,11 @@
 <p>Also, this article is tagged with:</p>
 <ul>
     {{ range .GetTerms "tags" }}
-    <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+        {{ $count := .Pages | len }}
+        <li>
+            <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+            ({{ $count }})
+        </li>
     {{ end }}
 </ul>
 <p><a href="/articles">Back to all articles</a>.</p>
