@@ -1,30 +1,30 @@
 * {
-    /* background-color: hsl(0, 0%, 10%); */
-    /* color: hsl(0, 0%, 95%); */
+  /* background-color: hsl(0, 0%, 10%); */
+  /* color: hsl(0, 0%, 95%); */
 }
 
 body {
-    max-width: 38em;
-    margin: 0 auto;
-    padding: 2em 1em;
-    font-family: arial, sans-serif;
-    font-size: 1.1em;
-    line-height: 1.5em;
+  max-width: 38em;
+  margin: 0 auto;
+  padding: 2em 1em;
+  font-family: arial, sans-serif;
+  font-size: 1.1em;
+  line-height: 1.5em;
 }
 
 a {
-    text-decoration: none;
-    color: hsl(230, 100%, 50%);
-    /* color: hsl(200, 100%, 65%); */
+  text-decoration: none;
+  color: hsl(240, 100%, 50%);
+  /* color: hsl(200, 100%, 65%); */
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-hr { 
-    border: none;
-    padding-top: 1px;
-    background-color: hsl(0, 0%, 80%);
-    /* background-color: hsl(0, 0%, 40%); */
+hr {
+  border: none;
+  padding-top: 1px;
+  background-color: hsl(0, 0%, 80%);
+  /* background-color: hsl(0, 0%, 40%); */
 }
