@@ -2,18 +2,16 @@ body {
     max-width: 36em;
     margin: 3em auto;
     padding: 1em;
+    background-color: hsl(30, 70%, 95%);
     font-family: arial, sans-serif;
-    font-size: 1.1em;
+    color: hsl(0, 100%, 15%);
+    font-size: 1.2em;
     line-height: 1.7em;
 }
 
 a {
     text-decoration: none;
-    color: hsl(240, 90%, 50%)
-}
-
-a:visited {
-    color: hsl(280, 70%, 30%)
+    color: hsl(0, 100%, 35%);
 }
 
 a:hover {
@@ -22,6 +20,11 @@ a:hover {
 
 hr {
     border: none;
+    margin: 2em 0;
     padding-top: 1px;
-    background-color: hsl(0, 0%, 85%);
+    background-color: hsl(30, 30%, 85%);
+}
+
+p {
+    font-family: georgia, serif;
 }
