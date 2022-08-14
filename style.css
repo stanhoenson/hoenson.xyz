@@ -1,10 +1,9 @@
 body {
-    max-width: 38em;
+    max-width: 36em;
     margin: 3em auto;
     padding: 1em;
     font-family: arial, sans-serif;
-    font-size: 1.1em;
-    line-height: 1.5em;
+    line-height: 1.7em;
 }
 
 a {
@@ -23,5 +22,5 @@ a:hover {
 hr {
     border: none;
     padding-top: 1px;
-    background-color: hsl(0, 0%, 80%);
+    background-color: hsl(0, 0%, 85%);
 }
