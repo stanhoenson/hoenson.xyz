@@ -1,0 +1,27 @@
+body {
+    max-width: 38em;
+    margin: 3em auto;
+    padding: 1em;
+    font-family: arial, sans-serif;
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(240, 90%, 50%)
+}
+
+a:visited {
+    color: hsl(280, 70%, 30%)
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    padding-top: 1px;
+    background-color: hsl(0, 0%, 80%);
+}
