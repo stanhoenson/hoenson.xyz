@@ -1,11 +1,11 @@
 body {
-    max-width: 36em;
+    max-width: 600px;
     margin: 3em auto;
     padding: 1em;
     background-color: hsl(30, 75%, 95%);
     font-family: helvetica, arial, sans-serif;
     color: hsl(0, 100%, 15%);
-    font-size: 1.2em;
+    font-size: 1.1em;
     line-height: 1.7em;
 }
 
