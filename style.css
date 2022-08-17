@@ -4,8 +4,8 @@ html {
 
 body {
     max-width: 1000px;
-    padding: 20px;
-    margin: 80px auto;
+    padding: 20px 20px 0 20px;
+    margin: 80px auto 0 auto;
 
     font-family: helvetica, arial, sans-serif;
     color: hsl(0, 100%, 15%);
@@ -26,6 +26,16 @@ h2 {
     margin-bottom: 10px;
 }
 
+h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+aside ul li a {
+    font-family: georgia, serif;
+}
+
 a {
     text-decoration: none;
     color: hsl(0, 90%, 35%);
@@ -33,6 +43,22 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.active:after {
+    content: ".";
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+section:last-of-type {
+    margin-bottom: 0;
 }
 
 hr {
@@ -47,8 +73,16 @@ p {
     margin-bottom: 10px;
 }
 
+p:last-of-type {
+    margin-bottom: 0;
+}
+
 footer {
     border-top: 1px solid hsl(30, 20%, 85%);
     padding: 100px 0;
     text-align: center;
+}
+
+strong {
+    font-weight: bold;
 }
