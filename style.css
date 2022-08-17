@@ -6,7 +6,6 @@ body {
     max-width: 1000px;
     padding: 20px 20px 0 20px;
     margin: 80px auto 0 auto;
-
     font-family: helvetica, arial, sans-serif;
     color: hsl(0, 100%, 15%);
     font-size: 1.1rem;
@@ -69,12 +68,22 @@ a:hover {
     content: ".";
 }
 
+article {
+    margin-bottom: 30px;
+}
+
 section {
     margin-bottom: 50px;
 }
 
 section:last-of-type {
     margin-bottom: 0;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 strong {
