@@ -1,7 +1,9 @@
 :root {
-    --background: hsl(30, 75%, 95%);
-    --foreground: hsl(0, 100%, 15%);
-    --accent: hsl(0, 90%, 35%);
+    --background00: hsl(30, 60%, 91%);
+    --background0: hsl(30, 75%, 95%);
+    --background1: hsl(30, 20%, 85%);
+    --foreground0: hsl(0, 100%, 15%);
+    --red0: hsl(0, 90%, 35%);
 }
 
 /* GROUP RULES */
@@ -13,7 +15,8 @@ h5,
 h6,
 p,
 ul,
-ol {
+ol,
+blockquote {
     margin-bottom: 14px;
 }
 
@@ -37,7 +40,8 @@ a {
 main > *:last-child,
 section > *:last-child,
 article > *:last-child,
-footer > *:last-child {
+footer > *:last-child,
+blockquote > *:last-child {
     margin-bottom: 0;
 }
 
@@ -72,7 +76,7 @@ ol {
 
 a {
     text-decoration: none;
-    color: var(--accent);
+    color: var(--red0);
 }
 
 a:hover,
@@ -85,10 +89,27 @@ nav a {
     font-family: georgia, serif;
 }
 
+blockquote {
+    background-color: var(--background00);
+    border-left: 4px solid var(--red0);
+    border-radius: 0 8px 8px 0 ;
+    padding: 14px 20px;
+}
+
+blockquote p {
+    font-style: italic;
+}
+
+cite {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+}
+
 /* LAYOUT RULES */
 html {
-    background-color: var(--background);
-    color: var(--foreground);
+    background-color: var(--background0);
+    color: var(--foreground0);
 }
 
 body {
@@ -100,7 +121,7 @@ body {
 }
 
 hr {
-    background-color: hsl(30, 20%, 85%);
+    background-color: var(--background1);
     padding-top: 1px;
     border: none;
     margin: 30px 0;
@@ -122,7 +143,7 @@ section:last-of-type {
 }
 
 footer {
-    border-top: 1px solid hsl(30, 20%, 85%);
+    border-top: 1px solid var(--background1);
     padding: 100px 0;
     text-align: center;
 }
