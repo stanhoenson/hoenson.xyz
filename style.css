@@ -16,7 +16,9 @@ h6,
 p,
 ul,
 ol,
-blockquote {
+blockquote,
+img {
+    overflow: hidden;
     margin-bottom: 14px;
 }
 
@@ -35,6 +37,11 @@ ul,
 ol,
 a {
     font-family: georgia, serif;
+}
+
+blockquote,
+img {
+    margin: 26px 0;
 }
 
 main > *:last-child,
@@ -104,6 +111,13 @@ cite {
     display: block;
     font-weight: bold;
     text-align: center;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
 
 /* LAYOUT RULES */
