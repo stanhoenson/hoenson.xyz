@@ -96,7 +96,8 @@ nav a {
     font-family: georgia, serif;
 }
 
-blockquote {
+blockquote,
+.modified {
     background-color: var(--background00);
     border-left: 4px solid var(--red0);
     border-radius: 0 8px 8px 0 ;
@@ -123,6 +124,10 @@ img {
 
 header img {
     margin: 0;
+}
+
+.modified {
+    margin-bottom: 28px;
 }
 
 /* LAYOUT RULES */
