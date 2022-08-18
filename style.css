@@ -1,9 +1,11 @@
 :root {
-    --background00: hsl(30, 60%, 91%);
+    --background00: hsl(30, 60%, 90%);
     --background0: hsl(30, 75%, 95%);
     --background1: hsl(30, 20%, 85%);
     --foreground0: hsl(0, 100%, 15%);
+    --foreground1: hsl(0, 40%, 35%);
     --red0: hsl(0, 90%, 35%);
+    --red1: hsl(0, 50%, 40%);
 }
 
 /* GROUP RULES */
@@ -24,7 +26,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+cite {
     font-family: helvetica, arial, sans-serif;
     font-weight: bold;
 }
@@ -106,7 +109,8 @@ blockquote p {
 
 cite {
     display: block;
-    font-weight: bold;
+    font-size: 1rem;
+    color: var(--red1);
     text-align: center;
 }
 
