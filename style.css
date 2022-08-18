@@ -15,10 +15,7 @@ h5,
 h6,
 p,
 ul,
-ol,
-blockquote,
-img {
-    overflow: hidden;
+ol {
     margin-bottom: 14px;
 }
 
@@ -118,6 +115,10 @@ img {
     width: 100%;
     height: auto;
     border-radius: 8px;
+}
+
+header img {
+    margin: 0;
 }
 
 /* LAYOUT RULES */
