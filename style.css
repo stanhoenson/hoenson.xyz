@@ -41,7 +41,7 @@ a {
 
 blockquote,
 img {
-    margin: 26px 0;
+    margin: 28px 0;
 }
 
 main > *:last-child,
@@ -128,8 +128,8 @@ html {
 
 body {
     max-width: 1000px;
-    padding: 20px 20px 0 20px;
-    margin: 80px auto 0 auto;
+    padding: 0 20px;
+    margin: 100px auto 0;
     font-size: 1.1rem;
     line-height: 1.7rem;
 }
@@ -149,11 +149,7 @@ hr {
 }
 
 section {
-    margin-bottom: 50px;
-}
-
-section:last-of-type {
-    margin-bottom: 0;
+    margin-bottom: 60px;
 }
 
 footer {
