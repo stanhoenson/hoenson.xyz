@@ -74,6 +74,10 @@ strong {
     font-weight: bold;
 }
 
+em {
+    font-style: italic;
+}
+
 ul {
     list-style: inside;
 }
