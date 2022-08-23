@@ -1,14 +1,32 @@
 :root {
-    --background00: hsl(30, 60%, 90%);
-    --background0: hsl(30, 75%, 95%);
-    --background1: hsl(30, 20%, 85%);
-    --foreground0: hsl(0, 100%, 15%);
-    --foreground1: hsl(0, 40%, 35%);
-    --red0: hsl(0, 90%, 35%);
-    --red1: hsl(0, 50%, 40%);
+    --background: hsl(30, 75%, 95%);
+    --foreground: hsl(0, 100%, 15%);
+    --accent: hsl(0, 90%, 35%);
+    --border: 1px solid hsl(30, 60%, 90%);
+    --test: hsl(30, 60%, 90%);
+    --cite: hsl(0, 50%, 40%);
 }
 
-/* GROUP RULES */
+/* <-- --> */
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+h2 + h3 {
+    margin-top: 0;
+}
+
 h1,
 h2,
 h3,
@@ -17,8 +35,10 @@ h5,
 h6,
 p,
 ul,
-ol {
-    margin-bottom: 14px;
+ol,
+blockquote,
+img {
+    margin-bottom: 20px;
 }
 
 h1,
@@ -37,41 +57,35 @@ ul,
 ol,
 a {
     font-family: georgia, serif;
-}
-
-blockquote,
-img {
-    margin: 28px 0;
-}
-
-main > *:last-child,
-section > *:last-child,
-article > *:last-child,
-footer > *:last-child,
-blockquote > *:last-child {
-    margin-bottom: 0;
-}
-
-/* INDIVIDUAL RULES */
-h1 {
-    font-size: 1.7rem;
-}
-
-h2 {
-    font-size: 1.7rem;
-}
-
-h3 {
-    margin-top: 28px;
-    font-size: 1.3rem;
-}
-
-h2 + h3 {
-    margin-top: 0;
-}
-
-h4 {
     font-size: 1.1rem;
+}
+
+ul,
+ol {
+    list-style-position: inside;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+ul > ul,
+ol > ol {
+    margin: 0 0 0 30px;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+a:hover,
+.active {
+    text-decoration: underline;
 }
 
 strong {
@@ -82,101 +96,89 @@ em {
     font-style: italic;
 }
 
-ul {
-    list-style: inside;
+blockquote,
+.modified {
+    background-color: var(--test);
+    padding: 14px 20px;
+    border-left: 4px solid var(--accent);
+    border-radius: 0 8px 8px 0;
 }
 
-ul > ul {
-    margin: 0 0 0 30px;
+.modified {
+    margin-bottom: 32px;
 }
 
-ol {
-    list-style: decimal inside;
+main > *:last-child,
+section > *:last-child,
+footer > *:last-child {
+    margin-bottom: 0;
 }
 
-a {
-    text-decoration: none;
-    color: var(--red0);
+/* <-- --> */
+
+html {
+    color: var(--foreground);
+    background-color: var(--background);
 }
 
-a:hover,
-.active {
-    text-decoration: underline;
+body {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 20px;
+    line-height: 1.7rem;
+}
+
+header {
+    padding: 50px 0;
+    border-bottom: var(--border);
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: -20px;
 }
 
 nav a {
-    display: block;
-    font-family: georgia, serif;
+    padding: 20px;
 }
 
-blockquote,
-.modified {
-    background-color: var(--background00);
-    border-left: 4px solid var(--red0);
-    border-radius: 0 8px 8px 0 ;
-    padding: 14px 20px;
+main {
+    padding: 50px 0;
+    border-bottom: var(--border);
 }
 
-blockquote p {
-    font-style: italic;
+section {
+    margin-bottom: 50px;
 }
 
-cite {
-    display: block;
-    font-size: 1rem;
-    color: var(--red1);
-    text-align: center;
-}
-
-img {
+section img {
     display: block;
     width: 100%;
     height: auto;
     border-radius: 8px;
 }
 
-header img {
-    margin: 0;
+blockquote p {
+    font-style: italic;
 }
 
-.modified {
-    margin-bottom: 28px;
-}
-
-/* LAYOUT RULES */
-html {
-    background-color: var(--background0);
-    color: var(--foreground0);
-}
-
-body {
-    max-width: 1000px;
-    padding: 0 20px;
-    margin: 100px auto 0;
-    font-size: 1.1rem;
-    line-height: 1.7rem;
-}
-
-hr {
-    background-color: var(--background1);
-    padding-top: 1px;
-    border: none;
-    margin: 30px 0;
-}
-
-.container {
-    display: grid;
-    grid-template-columns: 2fr 5fr;
-    gap: 60px;
-    margin-bottom: 100px;
-}
-
-section {
-    margin-bottom: 60px;
+blockquote cite {
+    display: block;
+    color: var(--cite);
+    font-weight: bold;
+    text-align: center;
 }
 
 footer {
-    border-top: 1px solid var(--background1);
     padding: 100px 0;
+}
+
+footer p {
     text-align: center;
 }
