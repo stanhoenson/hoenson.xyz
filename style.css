@@ -3,8 +3,8 @@
     --foreground: hsl(0, 100%, 15%);
     --accent: hsl(0, 90%, 35%);
     --border: 1px solid hsl(30, 60%, 90%);
-    --test: hsl(30, 60%, 90%);
-    --cite: hsl(0, 50%, 40%);
+    --card: hsl(30, 60%, 90%);
+    --soft: hsl(0, 50%, 35%);
 }
 
 /* <-- --> */
@@ -97,16 +97,27 @@ em {
 }
 
 blockquote,
-.modified {
-    background-color: var(--test);
+.modified,
+.discuss {
+    background-color: var(--card);
     padding: 14px 20px;
     border-left: 4px solid var(--accent);
     border-radius: 0 8px 8px 0;
 }
 
+.modified,
+.published {
+    color: var(--soft);
+    margin-bottom: 50px;
+}
+
 .modified {
     margin-top: -20px;
-    margin-bottom: 40px;
+}
+
+.published {
+    margin-top: -10px;
+    text-align: center;
 }
 
 main > *:last-child,
@@ -171,7 +182,7 @@ blockquote p {
 
 blockquote cite {
     display: block;
-    color: var(--cite);
+    color: var(--soft);
     font-weight: bold;
     text-align: center;
 }
