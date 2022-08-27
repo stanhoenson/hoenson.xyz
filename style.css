@@ -157,7 +157,8 @@ blockquote,
 }
 
 .modified,
-.published {
+.published,
+.discuss {
     color: var(--soft);
     margin-bottom: 50px;
 }
@@ -178,6 +179,10 @@ blockquote,
     color: var(--background);
     font-family: var(--monospace);
     font-size: 0.9rem;
+}
+
+.discuss {
+    margin-bottom: -20px !important;
 }
 
 main > *:last-child,
