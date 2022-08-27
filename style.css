@@ -1,40 +1,49 @@
 @font-face {
     font-family: "Greycliff";
-    src: url("fonts/greycliff-webfont/GreycliffCF-Regular.woff2");
+    src: url("typefaces/greycliff-webfont/GreycliffCF-Regular.woff2");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Greycliff";
-    src: url("fonts/greycliff-webfont/GreycliffCF-Bold.woff2");
+    src: url("typefaces/greycliff-webfont/GreycliffCF-Bold.woff2");
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Novaletra Serif";
-    src: url("fonts/novaletra-serif-webfont/NovaletraSerifCF-Light.woff2");
+    src: url("typefaces/novaletra-serif-webfont/NovaletraSerifCF-Light.woff2");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Novaletra Serif";
-    src: url("fonts/novaletra-serif-webfont/NovaletraSerifCF-Bold.woff2");
+    src: url("typefaces/novaletra-serif-webfont/NovaletraSerifCF-Bold.woff2");
     font-weight: bold;
     font-style: normal;
 }
 
+@font-face {
+    font-family: "Cartograph";
+    src: url("typefaces/cartograph-webfont/CartographCF-Regular.woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
 :root {
+    --sans-serif: "Greycliff", helvetica, arial, sans-serif;
+    --serif: "Novaletra Serif", georgia, serif;
+    --monospace: "Cartograph", menlo, monospace;
     --background: hsl(30, 75%, 95%);
     --foreground: hsl(0, 100%, 15%);
     --accent: hsl(0, 90%, 35%);
     --border: 1px solid hsl(30, 60%, 90%);
     --card: hsl(30, 60%, 90%);
     --soft: hsl(0, 50%, 35%);
-    --sans-serif: "Greycliff", helvetica, arial, sans-serif;
-    --serif: "Novaletra Serif", georgia, serif;
+    --code: hsl(0, 50%, 10%);
 }
 
 /* <-- --> */
@@ -153,6 +162,15 @@ blockquote,
 .published {
     margin-top: -10px;
     text-align: center;
+}
+
+.code {
+    background-color: var(--code);
+    padding: 14px 20px;
+    border-radius: 8px;
+    color: var(--background);
+    font-family: var(--monospace);
+    font-size: 0.9rem;
 }
 
 main > *:last-child,
