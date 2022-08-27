@@ -27,6 +27,13 @@
 }
 
 @font-face {
+    font-family: "Novaletra Serif";
+    src: url("typefaces/novaletra-serif-webfont/NovaletraSerifCF-LightItalic.woff2");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
     font-family: "Cartograph";
     src: url("typefaces/cartograph-webfont/CartographCF-Regular.woff2");
     font-weight: normal;
