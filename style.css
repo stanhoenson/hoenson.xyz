@@ -41,26 +41,25 @@
 }
 
 :root {
-    --sans-serif: "Greycliff", helvetica, arial, sans-serif;
+    --sans-serif: "Greycliff", arial, sans-serif;
     --serif: "Novaletra Serif", georgia, serif;
     --monospace: "Cartograph", menlo, monospace;
+
+    --primary-content: hsl(0, 100%, 15%);
+    --secondary-content: hsl(0, 50%, 35%);
     --background: hsl(30, 75%, 95%);
-    --foreground: hsl(0, 100%, 15%);
-    --accent: hsl(0, 90%, 35%);
+    --background-highlights: hsl(30, 60%, 90%);
+    --red: hsl(0, 90%, 35%);
+
     --border: 1px solid hsl(30, 60%, 90%);
-    --card: hsl(30, 60%, 90%);
-    --soft: hsl(0, 50%, 35%);
     --code: hsl(0, 50%, 10%);
 }
-
-/* <-- --> */
 
 h1 {
     font-size: 2.1rem;
     text-align: center;
     margin-bottom: 10px;
 }
-
 main h1 {
     line-height: 2.5rem;
 }
@@ -130,7 +129,7 @@ ol > ol {
 }
 
 a {
-    color: var(--accent);
+    color: var(--red);
     text-decoration: none;
 }
 
@@ -150,16 +149,16 @@ em {
 blockquote,
 .modified,
 .discuss {
-    background-color: var(--card);
+    background-color: var(--background-highlights);
     padding: 14px 20px;
-    border-left: 4px solid var(--accent);
+    border-left: 4px solid var(--red);
     border-radius: 0 8px 8px 0;
 }
 
 .modified,
 .published,
 .discuss {
-    color: var(--soft);
+    color: var(--secondary-content);
     margin-bottom: 50px;
 }
 
@@ -194,7 +193,7 @@ footer > *:last-child {
 /* <-- --> */
 
 html {
-    color: var(--foreground);
+    color: var(--primary-content);
     background-color: var(--background);
 }
 
@@ -247,7 +246,7 @@ blockquote p {
 
 blockquote cite {
     display: block;
-    color: var(--soft);
+    color: var(--secondary-content);
     font-weight: bold;
     text-align: center;
     font-size: 1.1rem;
