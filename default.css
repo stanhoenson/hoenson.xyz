@@ -47,9 +47,66 @@
     --monospace: "Cartograph", menlo, monospace;
 }
 
+* {
+    transition: all 130ms;
+}
+
+header {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    padding: 5rem 0;
+    border-bottom: 1px solid hsl(0, 0%, 93%);
+    margin-bottom: 10rem;
+}
+
+header h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 0;
+    background-color: hsl(0, 0%, 100%);
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    max-width: 76rem;
+    margin: 0 auto;
+}
+
+nav a,
+footer a {
+    font-family: var(--sans-serif);
+    color: hsl(0, 0%, 55%);
+    text-decoration: underline hsl(0, 0%, 85%) 2px;
+    padding: 1rem 2rem;
+    margin: 0;
+    margin-bottom: -1rem;
+}
+
+nav a:hover,
+.footer a:hover {
+    color: hsl(50, 50%, 45%);
+    font-weight: bold;
+    text-decoration: underline 2px;
+}
+
 main {
-    max-width: 600px;
-    margin: 200px auto;
+    max-width: 38rem;
+    padding: 0 1rem;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+}
+
+footer {
+    padding: 10rem 0;
+    background-color: hsl(0, 0%, 96%);
+    border-top: 1px solid hsl(0, 0%, 92%);
 }
 
 strong,
@@ -75,7 +132,7 @@ h6 {
     font-weight: bold;
     line-height: 1.2em;
     margin-top: 2.5em;
-    /* margin-top: 4rem; */
+    /* margin-top: 5rem; */
     margin-bottom: 0.5em; 
     /* margin-bottom: 1rem; */
 }
@@ -109,6 +166,7 @@ h6 {
 p,
 ul,
 ol,
+a,
 figure,
 blockquote {
     font-family: var(--sans-serif);
@@ -138,7 +196,8 @@ li span {
     color: hsl(0, 0%, 25%);
 }
 
-a {
+a,
+.active {
     color: hsl(50, 50%, 45%);
     font-weight: bold;
     text-decoration: underline hsl(50, 75%, 75%) 2px;
