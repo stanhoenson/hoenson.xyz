@@ -61,6 +61,7 @@ cite {
 em {
     font-style: italic;
     text-decoration: underline hsl(0, 0%, 85%);
+    /* text-decoration: underline hsl(0, 0%, 90%) 2px; */
 }
 
 h1,
@@ -127,11 +128,11 @@ ol {
 a {
     color: hsl(50, 50%, 45%);
     font-weight: bold;
-    text-decoration: underline hsl(50, 75%, 75%);
+    text-decoration: underline hsl(50, 75%, 75%) 2px;
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: underline 2px;
 }
 
 figure {
