@@ -48,7 +48,15 @@
 
 main {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 200px auto;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
 }
 
 h1,
@@ -62,7 +70,9 @@ h6 {
     font-weight: bold;
     line-height: 1.3em;
     margin-top: 2.5em;
+    /* margin-top: 4rem; */
     margin-bottom: 0.5em; 
+    /* margin-bottom: 1rem; */
 }
 
 h1 {
@@ -107,7 +117,7 @@ ol {
 }
 
 a {
-    color: hsl(50, 50%, 50%);
+    color: hsl(50, 50%, 45%);
     font-weight: bold;
     text-decoration: underline hsl(50, 75%, 75%);
 }
