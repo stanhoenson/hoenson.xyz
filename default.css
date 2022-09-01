@@ -117,12 +117,25 @@ blockquote {
     margin-bottom: 2rem;
 }
 
+ul,
+ol {
+    line-height: 2em;
+}
+
 ul {
     list-style: inside;
 }
 
 ol {
     list-style: inside decimal;
+}
+
+li {
+    color: hsl(0, 0%, 70%);
+}
+
+li span {
+    color: hsl(0, 0%, 25%);
 }
 
 a {
