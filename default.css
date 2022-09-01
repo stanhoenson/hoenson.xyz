@@ -52,7 +52,8 @@ main {
     margin: 200px auto;
 }
 
-strong {
+strong,
+cite {
     color: hsl(0, 0%, 15%);
     font-weight: bold;
 }
@@ -71,7 +72,7 @@ h6 {
     font-family: var(--serif);
     color: hsl(0, 0%, 15%);
     font-weight: bold;
-    line-height: 1.3em;
+    line-height: 1.2em;
     margin-top: 2.5em;
     /* margin-top: 4rem; */
     margin-bottom: 0.5em; 
@@ -107,7 +108,8 @@ h6 {
 p,
 ul,
 ol,
-img {
+figure,
+blockquote {
     font-family: var(--sans-serif);
     color: hsl(0, 0%, 25%);
     line-height: 1.6em;
@@ -132,9 +134,37 @@ a:hover {
     text-decoration: underline;
 }
 
+figure {
+    color: hsl(0, 0%, 50%);
+    font-size: 0.8rem;
+    font-style: italic;
+    line-height: 1.3rem;
+    text-align: center;
+}
+
+figure > img {
+    margin-bottom: 0;
+}
+
 img {
     width: 100%;
-    height: auto;
+    margin-bottom: 2rem; 
+}
+
+figcaption {
+    margin-top: 0.5em;
+}
+
+blockquote {
+    font-style: italic;
+    padding: 0.5rem 1rem;
+    border-left: 2px solid hsl(0, 0%, 85%);
+}
+
+cite {
+    display: block;
+    font-style: normal;
+    margin-top: 1rem;
 }
 
 .published {
