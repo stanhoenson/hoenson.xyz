@@ -215,7 +215,6 @@ header h1 {
     padding: 0;
     background-color: hsl(0, 0%, 100%);
     margin: 0;
-    margin-bottom: 1rem;
 }
 
 nav {
@@ -229,9 +228,9 @@ nav {
 }
 
 nav a {
-    padding: 1rem 2rem;
+    padding: 2rem;
     margin: 0;
-    margin-bottom: -1rem;
+    margin-bottom: -2rem;
 }
 
 main {
