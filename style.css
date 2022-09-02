@@ -87,6 +87,7 @@ h3 {
 
 h4 {
     font-size: 1.9rem;
+    border-bottom: 1px solid hsl(0, 0%, 93%);
 }
 
 h5 {
@@ -222,9 +223,9 @@ nav {
 }
 
 nav a {
-    padding: 2rem;
+    padding: 1.5rem 2rem;
     margin: 0;
-    margin-bottom: -2rem;
+    margin-bottom: -1.5rem;
 }
 
 main {
