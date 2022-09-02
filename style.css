@@ -201,9 +201,6 @@ figcaption {
 /* <-- --> */
 
 header {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
     padding: 5rem 0;
     border-bottom: 1px solid hsl(0, 0%, 93%);
 }
@@ -222,8 +219,6 @@ nav {
     justify-content: center;
     align-items: center;
     padding: 0 1rem;
-    max-width: 76rem;
-    margin: 0 auto;
 }
 
 nav a {
