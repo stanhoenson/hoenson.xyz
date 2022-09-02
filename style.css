@@ -207,7 +207,6 @@ header {
     justify-content: center;
     padding: 5rem 0;
     border-bottom: 1px solid hsl(0, 0%, 93%);
-    margin-bottom: 10rem;
 }
 
 header h1 {
@@ -238,8 +237,7 @@ nav a {
 main {
     max-width: 38rem;
     padding: 0 1rem;
-    margin: 0 auto;
-    margin-bottom: 10rem;
+    margin: 10rem auto;
 }
 
 footer {
