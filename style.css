@@ -52,7 +52,7 @@
     --mustard-light: hsl(50, 75%, 75%);
     --grey: hsl(0, 0%, 55%);
     --grey-light: hsl(0, 0%, 85%);
-    --grey-lighter: hsl(0, 0%, 93%);
+    --grey-lighter: hsl(0, 0%, 91%);
     --pink: hsl(340, 100%, 50%);
 }
 
@@ -301,7 +301,7 @@ main > *:last-child {
 footer {
     text-align: center;
     padding: 8rem 1rem;
-    background-color: hsl(0, 0%, 95%);
+    background-color: hsl(0, 0%, 96%);
     border-top: 1px solid var(--grey-lighter);
 }
 
