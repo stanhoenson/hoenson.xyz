@@ -44,6 +44,16 @@
     --serif: "Quincy", georgia, serif;
     --sans-serif: "Greycliff", arial, sans-serif;
     --monospace: "Cartograph", menlo, monospace;
+
+    --primary: hsl(0, 0%, 25%);
+    --primary-dark: hsl(0, 0%, 15%);
+    --primary-light: hsl(0, 0%, 50%);
+    --primary-lighter: hsl(0, 0%, 70%);
+    --mustard: hsl(50, 55%, 40%);
+    --mustard-light: hsl(50, 75%, 75%);
+    --grey: hsl(0, 0%, 55%);
+    --grey-light: hsl(0, 0%, 75%);
+    --pink: hsl(340, 100%, 50%);
 }
 
 /* <-- --> */
@@ -54,7 +64,7 @@
 
 html {
     font-family: var(--sans-serif);
-    color: hsl(0, 0%, 15%);
+    color: var(--primary-dark);
 }
 
 h1,
@@ -106,13 +116,13 @@ code.block,
 ol,
 ul,
 figure {
-    color: hsl(0, 0%, 25%);
+    color: var(--primary);
     line-height: 1.6em;
     margin-bottom: 2rem;
 }
 
 p.secondary {
-    color: hsl(0, 0%, 50%);
+    color: var(--primary-light);
     margin-bottom: 1rem;
 }
 
@@ -124,9 +134,9 @@ blockquote {
 
 a,
 .active {
-    color: hsl(50, 55%, 40%);
+    color: var(--mustard);
     font-weight: bold;
-    text-decoration: underline hsl(50, 75%, 75%) 2px;
+    text-decoration: underline var(--mustard-light) 2px;
 }
 
 a:hover {
@@ -135,19 +145,19 @@ a:hover {
 
 a.secondary {
     font-family: var(--sans-serif);
-    color: hsl(0, 0%, 55%);
-    text-decoration: underline hsl(0, 0%, 85%) 2px;
+    color: var(--grey);
+    text-decoration: underline var(--grey-light) 2px;
 }
 
 a.secondary:hover {
-    color: hsl(50, 55%, 40%);
+    color: var(--mustard);
     font-weight: bold;
     text-decoration: underline 2px;
 }
 
 cite,
 strong {
-    color: hsl(0, 0%, 15%);
+    color: var(--primary-dark);
     font-weight: bold;
 }
 
@@ -159,7 +169,7 @@ cite {
 
 code {
     font-family: var(--monospace);
-    color: hsl(340, 100%, 50%);
+    color: var(--pink);
     padding: 0 0.4rem;
     background-color: hsl(0, 0%, 93%);
     margin: 0;
@@ -194,15 +204,15 @@ ol {
 }
 
 li {
-    color: hsl(0, 0%, 70%);
+    color: var(--primary-lighter);
 }
 
 li span {
-    color: hsl(0, 0%, 25%);
+    color: var(--primary);
 }
 
 figure {
-    color: hsl(0, 0%, 50%);
+    color: var(--primary-light);
     font-size: 0.8rem;
     font-style: italic;
     line-height: 1.3rem;
@@ -261,7 +271,7 @@ footer {
 
 footer p span {
     font-size: 1.3rem;
-    color: hsl(0, 0%, 70%);
+    color: var(--primary-lighter);
 }
 
 footer p:last-of-type {
