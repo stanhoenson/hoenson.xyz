@@ -234,11 +234,15 @@ header {
     border-bottom: 1px solid var(--grey-lighter);
 }
 
+header h1,
+aside h1 {
+    padding: 0;
+    background-color: hsl(0, 0%, 100%);
+}
+
 header h1 {
     font-size: 3rem;
     text-align: center;
-    padding: 0;
-    background-color: hsl(0, 0%, 100%);
     margin: 0;
 }
 
@@ -256,10 +260,28 @@ nav a {
     margin-bottom: -1.5rem;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 10rem 0;
+}
+
+aside {
+    width: 18rem;
+    padding: 0 1rem;
+}
+
+aside h1 {
+    font-size: 2.4rem;
+    text-align: left;
+    border-bottom: 1px solid var(--grey-lighter);
+}
+
 main {
     max-width: 38rem;
     padding: 0 1rem;
-    margin: 10rem auto;
 }
 
 footer {
@@ -280,4 +302,34 @@ footer p:last-of-type {
     background-color: hsl(0, 0%, 100%);
     border: 1px solid var(--grey-lighter);
     margin: 0 auto;
+}
+
+/* <-- --> */
+
+@media (max-width: 68rem) {
+    .container {
+        display: block;
+        margin: 5rem 0;
+    }
+
+    header {
+        padding: 2.5rem 1rem;
+    }
+
+    nav a {
+        flex: 1;
+        text-align: center;
+    }
+
+    aside {
+        display: none;
+    }
+
+    main {
+        margin: 0 auto;
+    }
+
+    footer {
+        padding: 4rem 1rem;
+    }
 }
