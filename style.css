@@ -294,6 +294,10 @@ main {
     padding: 0 1rem;
 }
 
+main > *:last-child {
+    margin: 0;
+}
+
 footer {
     text-align: center;
     padding: 8rem 1rem;
