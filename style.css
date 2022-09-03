@@ -144,7 +144,6 @@ a:hover {
 }
 
 a.secondary {
-    font-family: var(--sans-serif);
     color: var(--grey);
     text-decoration: underline var(--grey-light) 2px;
 }
@@ -205,6 +204,17 @@ ol {
 
 li {
     color: var(--primary-lighter);
+}
+
+li a.secondary {
+    font-weight: normal;
+    text-decoration: underline var(--grey-light) 1px;
+    margin: 0;
+}
+
+li a.secondary:hover {
+    font-weight: normal;
+    text-decoration: underline 1px;
 }
 
 li span {
