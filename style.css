@@ -304,6 +304,11 @@ footer p span {
     color: var(--primary-lighter);
 }
 
+footer p time {
+    color: var(--primary-lighter);
+    font-weight: normal;
+}
+
 footer p:last-of-type {
     display: inline-block;
     padding: 1rem;
