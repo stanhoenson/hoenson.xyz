@@ -201,12 +201,13 @@ img {
 
 ol,
 ul {
-    list-style: inside;
+    list-style: disc;
     line-height: 2em;
+    margin-left: 1rem;
 }
 
 ol {
-    list-style: inside decimal;
+    list-style: decimal;
 }
 
 li {
@@ -296,7 +297,7 @@ main {
 }
 
 main > *:last-child {
-    margin: 0;
+    margin-bottom: 0;
 }
 
 footer {
