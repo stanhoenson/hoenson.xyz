@@ -87,6 +87,14 @@ h1 {
     margin-top: 0;
 }
 
+h2,
+h3,
+h4,
+h5,
+h6 {
+    border-bottom: 1px solid var(--grey-lighter);
+}
+
 h2 {
     font-size: 3rem;
 }
@@ -97,7 +105,6 @@ h3 {
 
 h4 {
     font-size: 1.9rem;
-    border-bottom: 1px solid var(--grey-lighter);
 }
 
 h5 {
@@ -270,7 +277,7 @@ nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2rem;
+    gap: 4rem;
     margin: 10rem 0;
 }
 
@@ -319,7 +326,7 @@ footer p:last-of-type {
 
 /* <-- --> */
 
-@media (max-width: 68rem) {
+@media (max-width: 70rem) {
     .container {
         display: block;
         margin: 5rem 0;
