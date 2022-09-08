@@ -67,6 +67,10 @@ html {
     color: var(--primary-dark);
 }
 
+span.uppercase {
+    text-transform: uppercase;
+}
+
 h1,
 h2,
 h3,
@@ -130,7 +134,7 @@ figure {
 
 p.secondary {
     color: var(--primary-light);
-    margin-bottom: 1rem;
+    margin-bottom: 0.7rem;
 }
 
 blockquote {
