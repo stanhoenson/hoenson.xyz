@@ -1,41 +1,41 @@
 @font-face {
     font-family: "Quincy";
-    src: url("typefaces/quincy-webfont/QuincyCF-Regular.woff2");
+    src: url("../typefaces/quincy-webfont/QuincyCF-Regular.woff2");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Quincy";
-    src: url("typefaces/quincy-webfont/QuincyCF-Bold.woff2");
+    src: url("../typefaces/quincy-webfont/QuincyCF-Bold.woff2");
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Greycliff";
-    src: url("typefaces/greycliff-webfont/GreycliffCF-Regular.woff2");
+    src: url("../typefaces/greycliff-webfont/GreycliffCF-Regular.woff2");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Greycliff";
-    src: url("typefaces/greycliff-webfont/GreycliffCF-Bold.woff2");
+    src: url("../typefaces/greycliff-webfont/GreycliffCF-Bold.woff2");
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Greycliff";
-    src: url("typefaces/greycliff-webfont/GreycliffCF-RegularOblique.woff2");
+    src: url("../typefaces/greycliff-webfont/GreycliffCF-RegularOblique.woff2");
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: "Cartograph";
-    src: url("typefaces/cartograph-webfont/CartographCF-Light.woff2");
+    src: url("../typefaces/cartograph-webfont/CartographCF-Light.woff2");
     font-weight: normal;
     font-style: normal;
 }
