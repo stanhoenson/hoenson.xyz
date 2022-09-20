@@ -1,8 +1,14 @@
 {{ define "main" }}
     <h1>{{ .Title }}</h1>
+    {{ .Content }}
     <ul>
+        {{- if eq .Params.custom true }}
+        <li><a href="/writing/essays">Essays</a></li>
+        <li><a href="/writing/notes">Notes</a></li>
+        {{- else }}
         {{ range .Pages }}
         <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
         {{ end }}
     </ul>
 {{ end }}
