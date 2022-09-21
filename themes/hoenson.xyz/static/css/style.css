@@ -214,7 +214,11 @@ ol {
     list-style: decimal;
 }
 
-li {
+ul.secondary li {
+    color: var(--primary-lighter);
+}
+
+li::marker {
     color: var(--primary-lighter);
 }
 
