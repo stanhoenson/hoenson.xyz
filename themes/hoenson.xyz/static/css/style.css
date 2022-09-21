@@ -295,6 +295,15 @@ aside {
     padding: 0 1rem;
 }
 
+aside.secondary {
+    transition: opacity 500ms;
+    opacity: 0.5;
+}
+
+aside.secondary:hover {
+    opacity: 1;
+}
+
 aside h4 {
     margin-top: 0;
 }
