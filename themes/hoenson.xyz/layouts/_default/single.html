@@ -1,4 +1,5 @@
 {{ define "main" }}
     <p class="secondary">Posted on {{ .Date.Format "January 1, 2006" }}</p>
+    <h1>{{ .Title }}</h1>
     {{ .Content }}
 {{ end }}

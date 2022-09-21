@@ -1,14 +1,38 @@
 {{ define "main" }}
     <h1>{{ .Title }}</h1>
     {{ .Content }}
+    {{- if eq .Params.custom true }}
+    <h2>Recent essays</h2>
     <ul>
-        {{- if eq .Params.custom true }}
-        <li><a href="/writing/essays">Essays</a></li>
-        <li><a href="/writing/notes">Notes</a></li>
-        {{- else }}
-        {{ range .Pages }}
+        {{ $count := 0 }}
+        {{ range (where .Site.RegularPages "Section" "writing") }}
+        {{ if ne $count 5 }}
+        {{ if eq .CurrentSection.Title "Essays" }}
         <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ $count = add $count 1 }}
+        {{ end }}
         {{ end }}
         {{ end }}
     </ul>
+    <p>Or check out <a href="/writing/essays">all essays</a>.</p>
+    <h2>Recent notes</h2>
+    <ul>
+        {{ $count := 0 }}
+        {{ range (where .Site.RegularPages "Section" "writing") }}
+        {{ if ne $count 5 }}
+        {{ if eq .CurrentSection.Title "Notes" }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ $count = add $count 1 }}
+        {{ end }}
+        {{ end }}
+        {{ end }}
+    </ul>
+    <p>Or check out <a href="/writing/notes">all notes</a>.</p>
+    {{- else }}
+    <ul>
+        {{ range .Pages }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+    </ul>
+    {{ end }}
 {{ end }}
