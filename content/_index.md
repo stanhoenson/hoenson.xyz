@@ -2,6 +2,7 @@
 title: "Home"
 date: 2022-09-20T15:09:46+02:00
 draft: false
+menu: "main"
 ---
 
 This website serves as a place for me to share my work (and hopefully inspire other people as well).

@@ -1,11 +1,16 @@
 <header>
     <h1>Stan Hoenson</h1>
     <nav>
-        <a class="secondary" href="/">Home</a>
-        <a class="secondary" href="/writing">Writing</a>
-        <a class="secondary" href="/computing">Computing</a>
-        <a class="secondary" href="/music">Music</a>
-        <a class="secondary" href="/about">About</a>
-        <a class="secondary" href="/contact">Contact</a>
+        {{ $currentPage := . }}
+        {{ $currentSection := title $currentPage.Section }}
+        {{ range .Site.Menus.main }}
+        <a 
+            {{ if or ($currentPage.IsMenuCurrent "main" .) (eq $currentSection .Name) }}
+            class="active" 
+            {{ else }}
+            class="secondary"
+            {{ end }}
+            href="{{ .URL }}">{{ .Name }}</a>
+        {{ end }}
     </nav>
 </header>

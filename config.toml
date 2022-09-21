@@ -2,3 +2,28 @@ baseURL = 'http://hoenson.xyz/'
 languageCode = 'en-us'
 title = 'Stan Hoenson'
 theme = 'hoenson.xyz'
+[menu]
+[[menu.main]]
+    name = 'Home'
+    url = '/'
+    weight = 1
+[[menu.main]]
+    name = 'Writing'
+    url = '/writing/'
+    weight = 2
+[[menu.main]]
+    name = 'Computing'
+    url = '/computing/'
+    weight = 3
+[[menu.main]]
+    name = 'Music'
+    url = '/music/'
+    weight = 4
+[[menu.main]]
+    name = 'About'
+    url = '/about/'
+    weight = 5
+[[menu.main]]
+    name = 'Contact'
+    url = '/contact/'
+    weight = 6
