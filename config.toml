@@ -3,27 +3,27 @@ languageCode = 'en-us'
 title = 'Stan Hoenson'
 theme = 'hoenson.xyz'
 [menu]
-[[menu.main]]
+[[menu.header]]
     name = 'Home'
     url = '/'
     weight = 1
-[[menu.main]]
+[[menu.header]]
     name = 'Writing'
     url = '/writing/'
     weight = 2
-[[menu.main]]
+[[menu.header]]
     name = 'Computing'
     url = '/computing/'
     weight = 3
-[[menu.main]]
+[[menu.header]]
     name = 'Music'
     url = '/music/'
     weight = 4
-[[menu.main]]
+[[menu.header]]
     name = 'About'
     url = '/about/'
     weight = 5
-[[menu.main]]
+[[menu.header]]
     name = 'Contact'
     url = '/contact/'
     weight = 6

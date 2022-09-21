@@ -3,9 +3,9 @@
     <nav>
         {{ $currentPage := . }}
         {{ $currentSection := title $currentPage.Section }}
-        {{ range .Site.Menus.main }}
+        {{ range .Site.Menus.header }}
         <a 
-            {{ if or ($currentPage.IsMenuCurrent "main" .) (eq $currentSection .Name) }}
+            {{ if or ($currentPage.IsMenuCurrent "header" .) (eq $currentSection .Name) }}
             class="active" 
             {{ else }}
             class="secondary"
