@@ -1,0 +1,38 @@
+{{ define "main" }}
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    {{- if eq .Params.custom true }}
+    <h2>Recent songs</h2>
+    <ul>
+        {{ $count := 0 }}
+        {{ range (where .Site.RegularPages "Section" "music") }}
+        {{ if ne $count 5 }}
+        {{ if eq .CurrentSection.Title "Songs" }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ $count = add $count 1 }}
+        {{ end }}
+        {{ end }}
+        {{ end }}
+    </ul>
+    <p>Or check out <a href="/music/songs">all songs</a>.</p>
+    <h2>Recent demos</h2>
+    <ul>
+        {{ $count := 0 }}
+        {{ range (where .Site.RegularPages "Section" "music") }}
+        {{ if ne $count 5 }}
+        {{ if eq .CurrentSection.Title "Demos" }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ $count = add $count 1 }}
+        {{ end }}
+        {{ end }}
+        {{ end }}
+    </ul>
+    <p>Or check out <a href="/music/demos">all demos</a>.</p>
+    {{- else }}
+    <ul>
+        {{ range .Pages }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+    </ul>
+    {{ end }}
+{{ end }}

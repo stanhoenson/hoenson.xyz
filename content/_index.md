@@ -13,7 +13,7 @@ Just the right balance of quality *and* quantity.
 ## On this website
 
 - I'll be writing [essays](/writing/essays) and [notes](/writing/notes).
-- I'll be making [programs](/computing/programs) and [websites](/computing/programs).
+- I'll be making [programs](/computing/programs) and [websites](/computing/websites).
 - And, I'll be creating [songs](/music/songs) and little [demos](/music/demos).
 
 Apart from that you can learn more [about me](/about) or harshly judge my [resume](/about/resume).
