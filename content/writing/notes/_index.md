@@ -1,6 +1,7 @@
 ---
 title: "Notes"
-date: 2022-09-20T17:08:51+02:00
+date: 2022-09-21
+lastmod: 2022-09-21
 draft: false
 ---
 

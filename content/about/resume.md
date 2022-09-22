@@ -1,6 +1,7 @@
 ---
 title: "Resume"
-date: 2022-09-21T15:06:43+02:00
+date: 2022-09-21
+lastmod: 2022-09-21
 draft: false
 ---
 

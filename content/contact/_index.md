@@ -1,6 +1,7 @@
 ---
 title: "Contact"
-date: 2022-09-21T15:02:37+02:00
+date: 2022-09-21
+lastmod: 2022-09-21
 draft: false
 menu: "header"
 ---

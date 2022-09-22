@@ -1,6 +1,7 @@
 ---
 title: "Essays"
-date: 2022-09-20T16:10:40+02:00
+date: 2022-09-21
+lastmod: 2022-09-21
 draft: false
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Uses"
-date: 2022-09-21T15:06:32+02:00
+date: 2022-09-21
+lastmod: 2022-09-21
 draft: false
 ---
 

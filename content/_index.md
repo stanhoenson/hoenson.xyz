@@ -1,6 +1,7 @@
 ---
 title: "Home"
-date: 2022-09-20T15:09:46+02:00
+date: 2022-09-20
+lastmod: 2022-09-20
 draft: false
 menu: "header"
 ---

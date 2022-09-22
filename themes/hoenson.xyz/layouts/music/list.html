@@ -3,12 +3,15 @@
     {{ .Content }}
     {{- if eq .Params.custom true }}
     <h2>Recent songs</h2>
-    <ul>
+    <ul class="secondary">
         {{ $count := 0 }}
         {{ range (where .Site.RegularPages "Section" "music") }}
         {{ if ne $count 5 }}
         {{ if eq .CurrentSection.Title "Songs" }}
-        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            &mdash; <time>{{ .Date.Format "January 02" }}</time>
+        </li>
         {{ $count = add $count 1 }}
         {{ end }}
         {{ end }}
@@ -21,7 +24,10 @@
         {{ range (where .Site.RegularPages "Section" "music") }}
         {{ if ne $count 5 }}
         {{ if eq .CurrentSection.Title "Demos" }}
-        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            &mdash; <time>{{ .Date.Format "January 02" }}</time>
+        </li>
         {{ $count = add $count 1 }}
         {{ end }}
         {{ end }}
@@ -29,9 +35,13 @@
     </ul>
     <p>Or check out <a href="/music/demos">all demos</a>.</p>
     {{- else }}
-    <ul>
-        {{ range .Pages }}
-        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    <h2 class="no-margin">2022</h2>
+    <ul class="secondary">
+        {{ range where .Pages "Date.Year" 2022 }}
+        <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            &mdash; <time>{{ .Date.Format "January 02" }}</time>
+        </li>
         {{ end }}
     </ul>
     {{ end }}

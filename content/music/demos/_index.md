@@ -1,6 +1,7 @@
 ---
 title: "Demos"
-date: 2022-09-21T15:05:58+02:00
-draft: true
+date: 2022-09-21
+lastmod: 2022-09-21
+draft: false
 ---
 
