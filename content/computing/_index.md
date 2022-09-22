@@ -11,4 +11,4 @@ I prefer the **small web**, the **UNIX philosophy** and **FOSS** (Free and Open 
 Those concepts are my main compass in computing.
 
 - Programs are **small tools** with a focus on **extensibility**. 
-- Websites are **informational** first and **aesthetic** second.
+- Websites are **informational** first and **aesthetic** second, both are important though.
