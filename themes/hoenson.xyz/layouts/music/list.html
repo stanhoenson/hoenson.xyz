@@ -10,7 +10,7 @@
         {{ if eq .CurrentSection.Title "Songs" }}
         <li>
             <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-            &mdash; <time>{{ .Date.Format "January 02" }}</time>
+            &mdash; <time>{{ .Date.Format "January 02, 2006" }}</time>
         </li>
         {{ $count = add $count 1 }}
         {{ end }}
@@ -38,6 +38,33 @@
     <h2 class="no-margin">2022</h2>
     <ul class="secondary">
         {{ range where .Pages "Date.Year" 2022 }}
+        <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            &mdash; <time>{{ .Date.Format "January 02" }}</time>
+        </li>
+        {{ end }}
+    </ul>
+    <h2>2018</h2>
+    <ul class="secondary">
+        {{ range where .Pages "Date.Year" 2018 }}
+        <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            &mdash; <time>{{ .Date.Format "January 02" }}</time>
+        </li>
+        {{ end }}
+    </ul>
+    <h2>2016</h2>
+    <ul class="secondary">
+        {{ range where .Pages "Date.Year" 2016 }}
+        <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            &mdash; <time>{{ .Date.Format "January 02" }}</time>
+        </li>
+        {{ end }}
+    </ul>
+    <h2>2015</h2>
+    <ul class="secondary">
+        {{ range where .Pages "Date.Year" 2015 }}
         <li>
             <a href="{{ .RelPermalink }}">{{ .Title }}</a>
             &mdash; <time>{{ .Date.Format "January 02" }}</time>
