@@ -1,7 +1,7 @@
 {{ define "main" }}
     <h1>{{ .Title }}</h1>
     {{ .Content }}
-    <h2>Recent works</h2>
+    <h2>Latest works</h2>
     <ul class="secondary">
         {{ range first 5 .Site.RegularPages }}
         <li>

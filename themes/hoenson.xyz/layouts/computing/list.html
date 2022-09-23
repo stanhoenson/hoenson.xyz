@@ -3,7 +3,7 @@
     {{ .Content }}
 
     {{- if eq .Params.custom true }}
-    <h2>Recent programs</h2>
+    <h2>Latest programs</h2>
     <ul class="secondary">
         {{ $count := 0 }}
         {{ range (where .Site.RegularPages "Section" "computing") }}
@@ -20,7 +20,7 @@
     </ul>
     <p>Or check out <a href="/computing/programs">all programs</a>.</p>
 
-    <h2>Recent websites</h2>
+    <h2>Latest websites</h2>
     <ul class="secondary">
         {{ $count := 0 }}
         {{ range (where .Site.RegularPages "Section" "computing") }}

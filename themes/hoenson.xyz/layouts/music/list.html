@@ -3,7 +3,7 @@
     {{ .Content }}
 
     {{- if eq .Params.custom true }}
-    <h2>"Recent" songs</h2>
+    <h2>Latest songs</h2>
     <ul class="secondary">
         {{ $count := 0 }}
         {{ range (where .Site.RegularPages "Section" "music") }}
@@ -20,7 +20,7 @@
     </ul>
     <p>Or check out <a href="/music/songs">all songs</a>.</p>
 
-    <h2>Recent demos</h2>
+    <h2>Latest demos</h2>
     <ul class="secondary">
         {{ $count := 0 }}
         {{ range (where .Site.RegularPages "Section" "music") }}
