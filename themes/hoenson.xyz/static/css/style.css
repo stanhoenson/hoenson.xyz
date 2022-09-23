@@ -254,6 +254,7 @@ time {
     color: var(--grey);
 }
 
+.list > :first-child,
 .no-margin {
     margin-top: 0;
 }

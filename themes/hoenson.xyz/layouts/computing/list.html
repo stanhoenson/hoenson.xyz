@@ -1,6 +1,7 @@
 {{ define "main" }}
     <h1>{{ .Title }}</h1>
     {{ .Content }}
+
     {{- if eq .Params.custom true }}
     <h2>Recent programs</h2>
     <ul class="secondary">
@@ -10,7 +11,7 @@
         {{ if eq .CurrentSection.Title "Programs" }}
         <li>
             <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-            &mdash; <time>{{ .Date.Format "January 02" }}</time>
+            &mdash; <time>{{ .Date.Format "January 02, 2006" }}</time>
         </li>
         {{ $count = add $count 1 }}
         {{ end }}
@@ -18,6 +19,7 @@
         {{ end }}
     </ul>
     <p>Or check out <a href="/computing/programs">all programs</a>.</p>
+
     <h2>Recent websites</h2>
     <ul class="secondary">
         {{ $count := 0 }}
@@ -34,15 +36,23 @@
         {{ end }}
     </ul>
     <p>Or check out <a href="/computing/websites">all websites</a>.</p>
+
     {{- else }}
-    <h2 class="no-margin">2022</h2>
-    <ul class="secondary">
-        {{ range where .Pages "Date.Year" 2022 }}
-        <li>
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-            &mdash; <time>{{ .Date.Format "January 02" }}</time>
-        </li>
+
+    <div class="list">
+        {{ $2022 := where .Pages "Date.Year" 2022 }}
+        {{ if ne (len $2022) 0 }}
+        <h2>2022</h2>
+        <ul class="secondary">
+            {{ range $2022 }}
+            <li>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                &mdash; <time>{{ .Date.Format "January 02" }}</time>
+            </li>
+            {{ end }}
+        </ul>
         {{ end }}
-    </ul>
+    </div>
+
     {{ end }}
 {{ end }}
