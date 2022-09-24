@@ -47,8 +47,8 @@ There are other great ones of course.
 - [neovim](https://neovim.io/)
 
 #### Browser
-- Firefox (with [arkenfox's user.js](https://github.com/arkenfox/user.js))
-- Brave Browser
+- [Firefox](https://www.mozilla.org/en-US/firefox/new/) (with [arkenfox's user.js](https://github.com/arkenfox/user.js))
+- [Brave Browser](https://brave.com/)
 
 #### Communication
 - [Element](https://element.io/)
@@ -70,9 +70,17 @@ There are other great ones of course.
 I am not listing every single tool I use, just the most **essential** ones.
 I've been lucky getting all of these with **huge** student discounts.
 
+#### Software
+
 - [Ableton Live 11 Suite](https://www.ableton.com/en/live/)
 - [Duck Buddy](https://maxforlive.com/library/device/7623/duck-buddy)
 - [Serum](https://xferrecords.com/products/serum/)
 - [FabFilter Mixing Bundle](https://www.fabfilter.com/shop/mixing-bundle)
 - [Kilohearts Ultimate](https://kilohearts.com/products/kilohearts_ultimate)
 - [Addictive Drums 2](https://www.xlnaudio.com/products/addictive_drums_2)
+
+#### Hardware
+
+- Focusrite Scarlett 2i2
+- Shure SM57
+- Roland FP-30X
