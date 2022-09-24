@@ -5,3 +5,69 @@ lastmod: 2022-09-22
 draft: false
 ---
 
+On this page you can find the **tools** and **software** that I use for my work.
+I like to keep things **minimal** and with a focus on **long term** utility.
+
+## Writing
+
+Generally, I prefer **writing** over **typing**.
+These are the tools I use for physical writing.
+
+- Palomino Blackwing 602 Pencil
+- LAMY Safari Fountain Pen
+- Diamine Burgundy Royale Ink
+- Diamine Blue Velvet Ink
+- Leuchtturm1917 Notebook
+
+## Computing
+
+I mostly use **FOSS**, but for music I still use either **macOS** or **Windows**.
+This list is **not exhaustive**.
+
+#### Operating System
+
+- [Void Linux](https://voidlinux.org/) 
+- [FreeBSD](https://www.freebsd.org/)
+- macOS (with [Homebrew](https://brew.sh/))
+- Windows
+
+There are other great ones of course.
+
+#### Shell
+- [bash](https://www.gnu.org/software/bash/)
+- [zsh](https://www.zsh.org/)
+
+#### "Desktop Environment"
+- [dwm](https://dwm.suckless.org/) 
+- [slstatus](https://tools.suckless.org/slstatus/)
+- [dmenu](https://tools.suckless.org/dmenu/)
+- [st](https://st.suckless.org/)
+- [nnn](https://github.com/jarun/nnn)
+- [neovim](https://neovim.io/)
+
+#### Browser
+- Firefox (with [arkenfox's user.js](https://github.com/arkenfox/user.js))
+- Brave Browser
+
+#### Miscellaneous
+- [git](https://git-scm.com/)
+- [syncthing](https://syncthing.net/)
+- [mpv](https://mpv.io/)
+- [zathura](https://pwmt.org/projects/zathura/index.html)
+- [sfeed](https://codemadness.org/sfeed.html)
+- [feh](https://feh.finalrewind.org/)
+- [pass](https://www.passwordstore.org/)
+- [dvtm](https://www.brain-dump.org/projects/dvtm/)
+- [abduco](https://www.brain-dump.org/projects/abduco/)
+
+## Music
+
+I am not listing every single tool I use, just the most **essential** ones.
+I've been lucky getting all of these with **huge** student discounts.
+
+- [Ableton Live 11 Suite](https://www.ableton.com/en/live/)
+- [Duck Buddy](https://maxforlive.com/library/device/7623/duck-buddy)
+- [Serum](https://xferrecords.com/products/serum/)
+- [FabFilter Mixing Bundle](https://www.fabfilter.com/shop/mixing-bundle)
+- [Kilohearts Ultimate](https://kilohearts.com/products/kilohearts_ultimate)
+- [Addictive Drums 2](https://www.xlnaudio.com/products/addictive_drums_2)
