@@ -43,8 +43,8 @@ There are other great ones of course.
 - [slstatus](https://tools.suckless.org/slstatus/)
 - [dmenu](https://tools.suckless.org/dmenu/)
 - [st](https://st.suckless.org/)
-- [nnn](https://github.com/jarun/nnn)
-- [neovim](https://neovim.io/)
+- [lf](https://github.com/gokcehan/lf)
+- [helix](https://helix-editor.com/)
 
 #### Browser
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/) (with [arkenfox's user.js](https://github.com/arkenfox/user.js))
