@@ -1,7 +1,7 @@
 ---
 title: "Uses"
 date: 2022-09-21
-lastmod: 2022-09-22
+lastmod: 2022-09-24
 draft: false
 ---
 
@@ -28,6 +28,7 @@ This list is **not exhaustive**.
 
 - [Void Linux](https://voidlinux.org/) 
 - [FreeBSD](https://www.freebsd.org/)
+- [Whonix](https://www.whonix.org/)
 - macOS (with [Homebrew](https://brew.sh/))
 - Windows
 
@@ -48,6 +49,10 @@ There are other great ones of course.
 #### Browser
 - Firefox (with [arkenfox's user.js](https://github.com/arkenfox/user.js))
 - Brave Browser
+
+#### Communication
+- [Element](https://element.io/)
+- [Mumble](https://www.mumble.info/)
 
 #### Miscellaneous
 - [git](https://git-scm.com/)
