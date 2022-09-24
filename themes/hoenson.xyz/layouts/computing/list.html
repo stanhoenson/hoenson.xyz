@@ -11,7 +11,7 @@
         {{ if eq .CurrentSection.Title "Programs" }}
         <li>
             <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-            &mdash; <time>{{ .Date.Format "January 02, 2006" }}</time>
+            &mdash; <time>{{ .Date.Format "January 02" }}</time>
         </li>
         {{ $count = add $count 1 }}
         {{ end }}
