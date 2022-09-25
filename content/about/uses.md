@@ -1,7 +1,7 @@
 ---
 title: "Uses"
 date: 2022-09-21
-lastmod: 2022-09-24
+lastmod: 2022-09-25
 draft: false
 ---
 
@@ -65,7 +65,7 @@ There are other great ones of course.
 - [zathura](https://pwmt.org/projects/zathura/index.html)
 - [neomutt](https://neomutt.org/)
 - [sfeed](https://codemadness.org/sfeed.html)
-- [feh](https://feh.finalrewind.org/)
+- [sxiv](https://github.com/muennich/sxiv)
 - [pass](https://www.passwordstore.org/)
 - [dvtm](https://www.brain-dump.org/projects/dvtm/)
 - [abduco](https://www.brain-dump.org/projects/abduco/)
