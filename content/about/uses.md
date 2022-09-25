@@ -6,7 +6,9 @@ draft: false
 ---
 
 On this page you can find the **tools** and **software** that I use for my work.
-I like to keep things **minimal** and with a focus on **long term** utility.
+
+I like to keep things **minimal** and **simple**.
+Apart from that, I focus on **high quality** tools that are **durable** and **fun to use**.
 
 ## Writing
 
