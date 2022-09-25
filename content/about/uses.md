@@ -35,8 +35,9 @@ This list is **not exhaustive**.
 There are other great ones of course.
 
 #### Shell
-- [bash](https://www.gnu.org/software/bash/)
 - [zsh](https://www.zsh.org/)
+- [dash](https://git.kernel.org/pub/scm/utils/dash/dash.git)
+- [rc](https://github.com/rakitzis/rc)
 
 #### "Desktop Environment"
 - [dwm](https://dwm.suckless.org/) 
