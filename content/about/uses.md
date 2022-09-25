@@ -46,6 +46,9 @@ There are other great ones of course.
 - [lf](https://github.com/gokcehan/lf)
 - [helix](https://helix-editor.com/)
 
+#### (Theme)
+- [Cattpuccin Mocha](https://github.com/catppuccin/catppuccin)
+
 #### Browser
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/) (with [arkenfox's user.js](https://github.com/arkenfox/user.js))
 - [Brave Browser](https://brave.com/)
@@ -59,6 +62,7 @@ There are other great ones of course.
 - [syncthing](https://syncthing.net/)
 - [mpv](https://mpv.io/)
 - [zathura](https://pwmt.org/projects/zathura/index.html)
+- [neomutt](https://neomutt.org/)
 - [sfeed](https://codemadness.org/sfeed.html)
 - [feh](https://feh.finalrewind.org/)
 - [pass](https://www.passwordstore.org/)
