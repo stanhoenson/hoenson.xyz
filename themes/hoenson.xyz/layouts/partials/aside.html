@@ -1,4 +1,4 @@
-{{ if .IsPage }}
+{{ if or (.IsPage) (eq .Section "about") }}
 <aside class="secondary">
 {{ else }}
 <aside>
