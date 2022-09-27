@@ -47,10 +47,10 @@ There are other great ones of course.
 - [dmenu](https://tools.suckless.org/dmenu/)
 - [st](https://st.suckless.org/)
 - [lf](https://github.com/gokcehan/lf)
-- [helix](https://helix-editor.com/)
+- [helix](https://helix-editor.com/) or [neovim](https://neovim.io/)
 
 #### (Theme)
-- [Cattpuccin Mocha](https://github.com/catppuccin/catppuccin)
+- [catppuccin](https://github.com/catppuccin/catppuccin) or [gruvbox](https://github.com/morhetz/gruvbox)
 
 #### Browser
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/) (with [arkenfox's user.js](https://github.com/arkenfox/user.js))
