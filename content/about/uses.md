@@ -28,8 +28,7 @@ This list is **not exhaustive**.
 
 #### Operating System
 
-- [Void Linux](https://voidlinux.org/) 
-- [FreeBSD](https://www.freebsd.org/)
+- [Void Linux](https://voidlinux.org/) or [FreeBSD](https://www.freebsd.org/)
 - [Whonix](https://www.whonix.org/)
 - macOS (with [Homebrew](https://brew.sh/))
 - Windows
