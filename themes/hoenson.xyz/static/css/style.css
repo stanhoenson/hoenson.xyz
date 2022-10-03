@@ -245,7 +245,6 @@ figure > img {
 figcaption {
     color: var(--primary-light);
     font-size: 0.8rem;
-    font-style: italic;
     line-height: 1.3rem;
     text-align: center;
     margin-top: 0.4em;
