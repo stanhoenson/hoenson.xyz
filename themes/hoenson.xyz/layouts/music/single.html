@@ -9,6 +9,7 @@
     <audio controls>
         <source src="{{ .Params.audio }}">
     </audio>
+    {{ if .Params.cover }}
     <figure>
         <img src="{{ .Params.cover }}" alt="{{ .Title }}">
         <figcaption>Cover art of {{ .Title }}</figcaption>
@@ -23,4 +24,5 @@
         Lastly, if you'd like the <strong>higher quality</strong> file (.flac or .wav) of the song,
         sent me an <a href="mailto:stan@hoenson.xyz">email</a>.
     </p>
+    {{ end }}
 {{ end }}
