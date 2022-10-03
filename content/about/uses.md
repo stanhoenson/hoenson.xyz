@@ -36,9 +36,7 @@ This list is **not exhaustive**.
 There are other great ones of course.
 
 #### Shell
-- [zsh](https://www.zsh.org/)
-- [dash](https://git.kernel.org/pub/scm/utils/dash/dash.git)
-- [rc](https://github.com/rakitzis/rc)
+- [zsh](https://www.zsh.org/) or [bash](https://www.gnu.org/software/bash/)
 
 #### "Desktop Environment"
 - [dwm](https://dwm.suckless.org/) 
@@ -66,7 +64,7 @@ There are other great ones of course.
 - [mpv](https://mpv.io/)
 - [zathura](https://pwmt.org/projects/zathura/index.html)
 - [neomutt](https://neomutt.org/)
-- [sfeed](https://codemadness.org/sfeed.html)
+- [newsboat](https://newsboat.org/)
 - [sxiv](https://github.com/muennich/sxiv)
 - [pass](https://www.passwordstore.org/)
 - [dvtm](https://www.brain-dump.org/projects/dvtm/)
