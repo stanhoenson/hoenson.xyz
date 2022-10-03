@@ -48,8 +48,9 @@ There are other great ones of course.
 - [lf](https://github.com/gokcehan/lf)
 - [helix](https://helix-editor.com/) or [neovim](https://neovim.io/)
 
-#### (Theme)
-- [catppuccin](https://github.com/catppuccin/catppuccin) or [gruvbox](https://github.com/morhetz/gruvbox)
+#### (Style)
+- [Neurotikai](https://github.com/stanhoenson/neurotikai)
+- [Cartograph](https://connary.com/cartograph.html)
 
 #### Browser
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/) (with [arkenfox's user.js](https://github.com/arkenfox/user.js))
@@ -88,5 +89,3 @@ I've been lucky getting all of these with **huge** student discounts.
 #### Hardware
 
 - Focusrite Scarlett 2i2
-- Shure SM57
-- Roland FP-30X
