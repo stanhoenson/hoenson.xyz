@@ -18,7 +18,9 @@
         {{ end }}
         {{ end }}
     </ul>
+    {{ if gt $count 5}}
     <p>Or check out <a href="/computing/programs">all programs</a>.</p>
+    {{ end }}
 
     <h2>Latest websites</h2>
     <ul class="secondary">
@@ -35,7 +37,9 @@
         {{ end }}
         {{ end }}
     </ul>
+    {{ if gt $count 5}}
     <p>Or check out <a href="/computing/websites">all websites</a>.</p>
+    {{ end }}
 
     {{- else }}
 

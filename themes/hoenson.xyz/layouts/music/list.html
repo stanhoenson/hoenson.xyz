@@ -18,7 +18,9 @@
         {{ end }}
         {{ end }}
     </ul>
+    {{ if gt $count 5 }}
     <p>Or check out <a href="/music/songs">all songs</a>.</p>
+    {{ end }}
 
     <h2>Latest demos</h2>
     <ul class="secondary">
@@ -35,7 +37,9 @@
         {{ end }}
         {{ end }}
     </ul>
+    {{ if gt $count 5 }}
     <p>Or check out <a href="/music/demos">all demos</a>.</p>
+    {{ end }}
 
     {{- else }}
 
