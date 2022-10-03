@@ -10,5 +10,5 @@ draft: false
   description=
   "A progressive house song with synths from space combined with a grounded groove."
   bandcamp="https://colorglitch.bandcamp.com/"
-  audio="../songs/ozone-drive.mp3" >}}
+  audio="../audio/ozone-drive.mp3" >}}
 
