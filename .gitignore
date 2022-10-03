@@ -1,5 +1,7 @@
 .DS_Store
+*.jpg
+*.png
+*.mp3
+*.woff
+*.woff2
 public
-themes/hoenson.xyz/static/typefaces/
-content/music/songs/audio/
-content/music/demos/audio/
