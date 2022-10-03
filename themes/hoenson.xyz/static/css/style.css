@@ -198,7 +198,8 @@ em {
     text-decoration: underline var(--grey-light);
 }
 
-img {
+img,
+audio {
     width: 100%;
     margin-bottom: 2rem; 
 }
@@ -257,6 +258,31 @@ time {
 .list > :first-child,
 .no-margin {
     margin-top: 0;
+}
+
+.song {
+    display: flex;
+    gap: 2rem;
+}
+
+.song .details {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50rem;
+}
+
+.song .details h4 {
+    margin-top: 0;
+}
+
+.song .details a {
+    display: inline-block;
+    background-color: hsl(0, 0%, 96%);
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid var(--grey-lighter);
 }
 
 /* <-- --> */

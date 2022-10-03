@@ -1,0 +1,13 @@
+<div class="song">
+  <img src="{{ .Get `cover` }}" width="260">
+  <div class="details">
+    <div>
+      <h4>Description</h4>
+      <p>{{ .Get "description" }}</p>
+    </div>
+    <a href="{{ .Get `bandcamp` }}">Pay what you want</a>
+  </div>
+</div>
+<audio controls>
+  <source src="{{ .Get `audio` }}" type="audio/mpeg">
+</audio>
