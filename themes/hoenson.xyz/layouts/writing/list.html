@@ -4,6 +4,7 @@
 
     {{- if eq .Params.custom true }}
     <h2>Latest essays</h2>
+    <p>Empty for now.</p>
     <ul class="secondary">
         {{ $count := 0 }}
         {{ range (where .Site.RegularPages "Section" "writing") }}
@@ -23,6 +24,7 @@
     {{ end }}
 
     <h2>Latest notes</h2>
+    <p>Empty for now.</p>
     <ul class="secondary">
         {{ $count := 0 }}
         {{ range (where .Site.RegularPages "Section" "writing") }}

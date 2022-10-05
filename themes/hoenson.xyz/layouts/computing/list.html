@@ -4,6 +4,7 @@
 
     {{- if eq .Params.custom true }}
     <h2>Latest programs</h2>
+    <p>Empty for now.</p>
     <ul class="secondary">
         {{ $count := 0 }}
         {{ range (where .Site.RegularPages "Section" "computing") }}

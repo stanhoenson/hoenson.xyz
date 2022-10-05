@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2022-09-21
-lastmod: 2022-09-26
+lastmod: 2022-10-05
 draft: false
 menu: "header"
 custom: true
@@ -14,4 +14,4 @@ I'm 24 years old and I'm almost finished with my bachelor in Software Engineerin
 - Check out the [tools I use](/about/uses)
 - Or, judge my [resume](/about/resume)
 
-Keep reading to learn more about me.
+Keep reading to learn more about me (coming soon).

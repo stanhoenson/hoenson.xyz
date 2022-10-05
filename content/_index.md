@@ -11,6 +11,8 @@ I want it to be in between a **private journal** and a **professional portfolio*
 Not too personal, not too formal.
 Just the right balance of quality *and* quantity.
 
+(This is website is very much a **work in progress**.)
+
 ## On this website
 
 - I'll be writing [essays](/writing/essays) and [notes](/writing/notes).

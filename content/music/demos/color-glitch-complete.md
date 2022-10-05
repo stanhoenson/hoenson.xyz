@@ -6,5 +6,5 @@ draft: false
 audio: "../audio/color-glitch-complete.mp3"
 ---
 
-A collection of all **worthwhile** songs and demos I've made since **2014**.
+A collection of all **worthwhile** demos and songs I've made since **2014**.
 You could see this as my full **music portfolio**.

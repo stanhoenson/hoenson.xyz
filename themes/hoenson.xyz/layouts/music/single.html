@@ -9,19 +9,19 @@
     <audio controls>
         <source src="{{ .Params.audio }}">
     </audio>
-    {{ if .Params.cover }}
+    {{ $image := resources.Get (printf "images/%s" .Params.cover) }}
+    {{ $title := .Title }}
+    {{ with $image }}
+    {{ $image := $image.Resize "1080x" }}
     <figure>
-        <img src="{{ .Params.cover }}" alt="{{ .Title }}">
-        <figcaption>Cover art of {{ .Title }}</figcaption>
+        <img src="{{ $image.RelPermalink }}" alt="{{ .Title }}">
+        <figcaption>Cover art of {{ $title }}</figcaption>
     </figure>
     <p>
         You can also listen to my music on
         <a href="https://soundcloud.com/colorglitch">SoundCloud</a> or
         <a href="https://open.spotify.com/artist/5oDM0IPMPlaAwZFj8SsCAQ?si=aJ8GvGDKQLik75U5olt2cQ">Spotify</a>.
-        Or pay what you want on <a href="https://colorglitch.bandcamp.com/">Bandcamp</a> to support me.
-    </p>
-    <p>
-        Lastly, if you'd like the <strong>higher quality</strong> file (.flac or .wav) of the song,
+        And if you'd like the <strong>higher quality</strong> file (.flac or .wav) of the song,
         sent me an <a href="mailto:stan@hoenson.xyz">email</a>.
     </p>
     {{ end }}

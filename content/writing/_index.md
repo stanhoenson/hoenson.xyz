@@ -6,8 +6,8 @@ menu: "header"
 custom: true
 ---
 
-I write about anything that peaks my interest.
-However, I like writing about **technology**, **self improvement** and **music** the most.
+I'll write about anything that peaks my **interest**.
+I've not done any writing besides school work and journal entries, so we'll see what happens here.
 
 - Essays are **longer form** and more **well thought out**.
 - Notes are **shorter** and a bit closer to **journal entries**. 

@@ -7,9 +7,10 @@ menu: "header"
 custom: true
 ---
 
-I like technology, but not the way it's headed.
-I prefer the **small web**, the **UNIX philosophy** and **FOSS** (Free and Open Source Software).
-Those concepts are my main compass in computing.
+I like the **small web**, the **UNIX philosophy** and **FOSS** (Free and Open Source Software).
+I want to contribute to the world of computing using those concepts as my compass.
+
+(There are some cool programs coming!)
 
 - Programs are **small tools** with a focus on **extensibility**. 
-- Websites are **informational** first and **aesthetic** second, both are important though.
+- Websites are **informational** first and **aesthetic** second, both are important.
