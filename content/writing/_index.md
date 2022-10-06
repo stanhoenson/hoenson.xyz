@@ -1,6 +1,7 @@
 ---
 title: "Writing"
-date: 2022-09-20T15:36:16+02:00
+date: 2022-09-20
+lastmod: 2022-09-20
 draft: false
 menu: "header"
 custom: true

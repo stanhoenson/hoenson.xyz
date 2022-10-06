@@ -6,17 +6,6 @@
     {{ end }}
     <h1>{{ .Title }}</h1>
     {{ .Content }}
-    <audio controls>
-        <source src="{{ .Params.audio }}">
-    </audio>
-    {{ $image := resources.Get (printf "images/%s" .Params.cover) }}
-    {{ $title := .Title }}
-    {{ with $image }}
-    {{ $image := $image.Resize "1080x" }}
-    <figure>
-        <img src="{{ $image.RelPermalink }}" alt="{{ .Title }}">
-        <figcaption>Cover art of {{ $title }}</figcaption>
-    </figure>
     <p>
         You can also listen to my music on
         <a href="https://soundcloud.com/colorglitch">SoundCloud</a> or
@@ -24,5 +13,4 @@
         And if you'd like the <strong>higher quality</strong> file (.flac or .wav) of the song,
         sent me an <a href="mailto:stan@hoenson.xyz">email</a>.
     </p>
-    {{ end }}
 {{ end }}

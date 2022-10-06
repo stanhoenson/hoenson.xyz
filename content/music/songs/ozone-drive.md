@@ -3,10 +3,11 @@ title: "Ozone Drive"
 date: 2018-10-12
 lastmod: 2018-10-12
 draft: false
-cover: ozone-drive.png
-audio: "../audio/ozone-drive.mp3"
 ---
 
 Listen to a [progressive house](https://en.wikipedia.org/wiki/Progressive_house) song with 
 **synths from space** while still being **grounded** by a strong groove.
 
+{{< img src="images/ozone-drive.png" alt="Cover art of Ozone Drive" >}}
+
+{{< audio src="audio/ozone-drive.mp3" >}}
