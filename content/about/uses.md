@@ -70,6 +70,14 @@ There are other great ones of course.
 - [dvtm](https://www.brain-dump.org/projects/dvtm/)
 - [abduco](https://www.brain-dump.org/projects/abduco/)
 
+#### macOS
+
+- [Raycast](https://www.raycast.com/)
+- [iTerm2](https://iterm2.com/)
+- [Rectangle](https://rectangleapp.com/)
+- [Transmit](https://panic.com/transmit/)
+- [Affinity Photo](https://affinity.serif.com/en-us/photo/)
+
 ## Music
 
 I am not listing every single tool I use, just the most **essential** ones.
