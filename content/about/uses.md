@@ -65,6 +65,7 @@ There are other great ones of course.
 #### Communication
 - [Element](https://element.io/)
 - [Mumble](https://www.mumble.info/)
+- [Discord](https://discord.com/)
 
 #### Miscellaneous
 - [git](https://git-scm.com/)
