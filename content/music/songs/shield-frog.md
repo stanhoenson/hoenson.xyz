@@ -10,4 +10,4 @@ It's a **cute** house song with a **froggy** lead melody.
 
 {{< audio src="audio/shield-frog.mp3" >}}
 
-{{< img src="images/shield-frog.jpg" alt="Cover art of Underwater Disco" >}}
+{{< img src="images/shield-frog.jpg" alt="Cover art of Shield Frog" >}}
