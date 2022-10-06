@@ -35,6 +35,14 @@ This list is **not exhaustive**.
 
 There are other great ones of course.
 
+#### (macOS)
+
+- [Raycast](https://www.raycast.com/)
+- [iTerm2](https://iterm2.com/)
+- [Rectangle](https://rectangleapp.com/)
+- [Transmit](https://panic.com/transmit/)
+- [Affinity Photo](https://affinity.serif.com/en-us/photo/)
+
 #### Shell
 - [zsh](https://www.zsh.org/) or [bash](https://www.gnu.org/software/bash/)
 
@@ -69,14 +77,6 @@ There are other great ones of course.
 - [pass](https://www.passwordstore.org/)
 - [dvtm](https://www.brain-dump.org/projects/dvtm/)
 - [abduco](https://www.brain-dump.org/projects/abduco/)
-
-#### macOS
-
-- [Raycast](https://www.raycast.com/)
-- [iTerm2](https://iterm2.com/)
-- [Rectangle](https://rectangleapp.com/)
-- [Transmit](https://panic.com/transmit/)
-- [Affinity Photo](https://affinity.serif.com/en-us/photo/)
 
 ## Music
 
