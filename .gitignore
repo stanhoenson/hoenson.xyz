@@ -5,3 +5,4 @@
 *.woff
 *.woff2
 public
+.hugo_build.lock
