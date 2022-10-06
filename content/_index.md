@@ -11,7 +11,7 @@ I want it to be in between a **private journal** and a **professional portfolio*
 Not too personal, not too formal.
 Just the right balance of quality *and* quantity.
 
-(This is website is very much a **work in progress**.)
+(This website is very much a **work in progress**.)
 
 ## On this website
 
@@ -19,4 +19,4 @@ Just the right balance of quality *and* quantity.
 - I'll be making [programs](/computing/programs) and [websites](/computing/websites).
 - And, I'll be creating [songs](/music/songs) and little [demos](/music/demos).
 
-Apart from that you can learn more [about me](/about) or harshly judge my [resume](/about/resume).
+Apart from that, you can learn more [about me](/about) or harshly judge my [resume](/about/resume).
