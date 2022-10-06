@@ -8,6 +8,6 @@ draft: false
 My first song that "did well" on SoundCloud.
 It's a **cute** house song with a **froggy** lead melody.
 
-{{< img src="images/shield-frog.jpg" alt="Cover art of Underwater Disco" >}}
-
 {{< audio src="audio/shield-frog.mp3" >}}
+
+{{< img src="images/shield-frog.jpg" alt="Cover art of Underwater Disco" >}}
