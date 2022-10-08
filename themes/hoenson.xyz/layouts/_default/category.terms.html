@@ -4,7 +4,7 @@
         {{ range .Data.Terms.Alphabetical }}
             <div class="item">
                 <p><span>{{ .Count }}</span> | {{ .Page.Params.description }}</p>
-                <h5 style="margin-bottom: 0"><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></h5>
+                <h5 class="term"><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></h5>
             </div>
         {{ end }}
     </div>
