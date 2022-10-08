@@ -149,26 +149,26 @@ h6 a.secondary:hover {
     text-decoration: none;
 }
 
-.posts > *:last-child {
+.items > *:last-child {
     margin-bottom: 0;
 }
 
-.post {
+.item {
     margin-bottom: 2rem;
 }
 
-.post p {
+.item p {
     color: var(--base5);
     margin-bottom: 0;
 }
 
-.post p span {
+.item p span {
     color: var(--base3);
     font-weight: bold;
     text-transform: uppercase;
 }
 
-.post h5 {
+.item h5 {
     margin-top: 0;
 }
 

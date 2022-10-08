@@ -14,9 +14,9 @@
     </header>
     {{ .Content }}
     <h3>{{ .Title }}</h3>
-    <div class="posts">
+    <div class="items">
         {{ range .Pages }}
-            <div class="post">
+            <div class="item">
                 <p>
                     <span>{{ strings.TrimSuffix "s" .Params.categories }}</span>
                     | {{ .Date.Format "January 2, 2006" }}

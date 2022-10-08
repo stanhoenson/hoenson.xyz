@@ -1,8 +1,8 @@
 {{ define "main" }}
     {{ .Content }}
-    <div class="posts">
+    <div class="items">
         {{ range .Pages }}
-            <div class="post">
+            <div class="item">
                 <p>
                     <span>{{ .Params.categories }}</span>
                     | {{ .Date.Format "January 2, 2006" }}

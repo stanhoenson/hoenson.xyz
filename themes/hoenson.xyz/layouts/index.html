@@ -1,8 +1,8 @@
 {{ define "main" }}
     {{ .Content }}
-    <div class="posts">
+    <div class="items">
         {{ range .Site.RegularPages }}
-            <div class="post">
+            <div class="item">
                 <p>
                     <span>
                         {{ strings.TrimSuffix "s" .Params.categories }}
