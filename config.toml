@@ -8,22 +8,18 @@ theme = 'hoenson.xyz'
     url = '/'
     weight = 1
 [[menu.header]]
-    name = 'Writing'
-    url = '/writing/'
+    name = 'Categories'
+    url = '/categories/'
     weight = 2
 [[menu.header]]
-    name = 'Computing'
-    url = '/computing/'
+    name = 'Tags'
+    url = '/tags/'
     weight = 3
-[[menu.header]]
-    name = 'Music'
-    url = '/music/'
-    weight = 4
 [[menu.header]]
     name = 'About'
     url = '/about/'
-    weight = 5
+    weight = 4
 [[menu.header]]
     name = 'Contact'
     url = '/contact/'
-    weight = 6
+    weight = 5

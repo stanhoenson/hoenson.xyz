@@ -1,13 +1,13 @@
 {{ $file := resources.GetMatch (.Get "src") }}
-{{ $file := $file.Resize "1080x" }}
+{{ $file := $file.Resize "1080x jpg q100" }}
 
 <figure>
-  <img
-    src="{{ $file.RelPermalink }}"
-    {{ with .Get "alt" }}
-    alt="{{ . }}"
-    {{ end }}>
-  {{ with .Get "alt" }}
-  <figcaption>{{ . }}</figcaption>
-  {{ end }}
+    <img
+        src="{{ $file.RelPermalink }}"
+        {{ with .Get "alt" }}
+            alt="{{ . }}"
+        {{ end }}>
+        {{ with .Get "alt" }}
+            <figcaption>{{ . }}</figcaption>
+        {{ end }}
 </figure>

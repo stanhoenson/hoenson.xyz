@@ -1,21 +1,14 @@
 @font-face {
-    font-family: "Quincy";
-    src: url("../typefaces/quincy/QuincyCF-Regular.woff2");
+    font-family: "Greycliff";
+    src: url("../typefaces/greycliff/GreycliffCF-Regular.woff2");
     font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Quincy";
-    src: url("../typefaces/quincy/QuincyCF-Bold.woff2");
-    font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Greycliff";
-    src: url("../typefaces/greycliff/GreycliffCF-Regular.woff2");
-    font-weight: normal;
+    src: url("../typefaces/greycliff/GreycliffCF-Medium.woff2");
+    font-weight: 500 600;
     font-style: normal;
 }
 
@@ -35,40 +28,59 @@
 
 @font-face {
     font-family: "Cartograph";
-    src: url("../typefaces/cartograph/CartographCF-Light.woff2");
+    src: url("../typefaces/cartograph/CartographCF-Regular.woff2");
     font-weight: normal;
     font-style: normal;
 }
 
-:root {
-    --serif: "Quincy", georgia, serif;
-    --sans-serif: "Greycliff", arial, sans-serif;
-    --monospace: "Cartograph", menlo, monospace;
-    --primary: hsl(0, 0%, 25%);
-    --primary-light: hsl(0, 0%, 50%);
-    --primary-lighter: hsl(0, 0%, 70%);
-    --primary-dark: hsl(0, 0%, 15%);
-    --mustard: hsl(50, 55%, 40%);
-    --mustard-light: hsl(50, 75%, 75%);
-    --grey: hsl(0, 0%, 55%);
-    --grey-light: hsl(0, 0%, 85%);
-    --grey-lighter: hsl(0, 0%, 91%);
-    --pink: hsl(340, 100%, 50%);
+@font-face {
+    font-family: "Cartograph";
+    src: url("../typefaces/cartograph/CartographCF-Bold.woff2");
+    font-weight: bold;
+    font-style: normal;
 }
 
-/* <-- --> */
+:root {
+    --sans-serif: "Greycliff", arial, sans-serif;
+    --monospace: "Cartograph", menlo, monospace;
+
+    --base1: hsl(0, 0%, 10%);
+    --base2: hsl(0, 0%, 20%);
+    --base3: hsl(0, 0%, 30%);
+    --base4: hsl(0, 0%, 40%);
+    --base5: hsl(0, 0%, 50%);
+    --base6: hsl(0, 0%, 60%);
+    --base7: hsl(0, 0%, 70%);
+    --base8: hsl(0, 0%, 80%);
+}
 
 * {
     transition: all 150ms;
+    line-height: 1.6em;
+    text-underline-offset: 0.1em;
 }
 
 html {
     font-family: var(--sans-serif);
-    color: var(--primary-dark);
+    color: var(--base2);
+    line-height: 1.6em;
+    background-color: hsl(10, 50%, 98%);
 }
 
-span.uppercase {
-    text-transform: uppercase;
+body {
+    max-width: 40rem;
+    padding: 6rem 1rem;
+    margin: 0 auto;
+}
+
+header {
+    margin-bottom: 4rem;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 2rem;
 }
 
 h1,
@@ -77,26 +89,18 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: var(--serif);
+    color: var(--base1);
     font-weight: bold;
     line-height: 1.2em;
-    margin-top: 2em;
-    margin-bottom: 0.5em; 
+    margin-top: 3rem;
+    margin-bottom: 1rem;
 }
 
 h1 {
     font-size: 3.8rem;
-    padding: 0.5rem 1rem;
-    background-color: var(--grey-lighter);
+    line-height: 1.1em;
     margin-top: 0;
-}
-
-h2,
-h3,
-h4,
-h5,
-h6 {
-    border-bottom: 1px solid var(--grey-lighter);
+    margin-bottom: 0.5rem;
 }
 
 h2 {
@@ -120,88 +124,83 @@ h6 {
 }
 
 p,
-blockquote,
-a,
-code,
-code.block,
 ol,
 ul,
 figure {
-    color: var(--primary);
-    line-height: 1.6em;
+    margin-bottom: 1rem;
+}
+
+h6.secondary {
+    color: var(--base5);
+    margin-top: 0;
+    margin-bottom: 4rem;
+}
+
+header h6 {
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h6 a.active,
+h6 a.secondary,
+h6 a.secondary:hover {
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.posts > *:last-child {
+    margin-bottom: 0;
+}
+
+.post {
     margin-bottom: 2rem;
 }
 
-p.secondary {
-    color: var(--primary-light);
-    margin-bottom: 0.7rem;
+.post p {
+    color: var(--base5);
+    margin-bottom: 0;
 }
 
-blockquote {
-    font-style: italic;
-    padding: 0.5rem 1rem;
-    border-left: 2px solid var(--grey-light);
-}
-
-a,
-.active {
-    color: var(--mustard);
+.post p span {
+    color: var(--base3);
     font-weight: bold;
-    text-decoration: underline var(--mustard-light) 2px;
+    text-transform: uppercase;
+}
+
+.post h5 {
+    margin-top: 0;
+}
+
+a {
+    color: hsl(50, 55%, 35%);
+    font-weight: bold;
+    text-decoration: 2px underline hsl(50, 75%, 75%);
 }
 
 a:hover {
-    text-decoration: underline 2px;
+    text-decoration: 2px underline hsl(50, 55%, 35%);
 }
 
 a.secondary {
-    color: var(--grey);
-    text-decoration: underline var(--grey-light) 2px;
+    color: var(--base5);
+    text-decoration: 2px underline var(--base8);
 }
 
+a.active,
 a.secondary:hover {
-    color: var(--mustard);
-    font-weight: bold;
-    text-decoration: underline 2px;
+    color: hsl(350, 80%, 50%);
+    text-decoration: 2px underline;
 }
 
-cite,
 strong {
-    color: var(--primary-dark);
+    color: var(--base1);
     font-weight: bold;
-}
-
-cite {
-    display: block;
-    font-style: normal;
-    margin-top: 1rem;
-}
-
-code {
-    font-family: var(--monospace);
-    color: var(--pink);
-    padding: 0 0.4rem;
-    background-color: var(--grey-lighter);
-    margin: 0;
-}
-
-code.block {
-    display: block;
-    color: hsl(0, 0%, 95%);
-    padding: 1rem;
-    background-color: hsl(0, 0%, 5%);
-    border-radius: 0.5rem;
 }
 
 em {
+    color: var(--base1);
     font-style: italic;
-    text-decoration: underline var(--grey-light);
-}
-
-img,
-audio {
-    width: 100%;
-    margin-bottom: 2rem; 
 }
 
 ol,
@@ -215,27 +214,27 @@ ol {
     list-style: decimal;
 }
 
-ul.secondary li {
-    color: var(--primary-lighter);
-}
-
 li::marker {
-    color: var(--primary-lighter);
+    color: var(--base8);
 }
 
-li a.secondary {
-    font-weight: normal;
-    text-decoration: underline var(--grey-light) 1px;
-    margin: 0;
+main > *:last-child {
+    margin-bottom: 0;
 }
 
-li a.secondary:hover {
-    font-weight: normal;
-    text-decoration: underline 1px;
+img,
+audio {
+    width: 100%;
+    margin-bottom: 2rem;
 }
 
-li span {
-    color: var(--primary);
+audio {
+    margin-top: 1rem;
+}
+
+figure {
+    margin-top: 3rem;
+    margin-bottom: 2.5rem;
 }
 
 figure > img {
@@ -243,167 +242,112 @@ figure > img {
 }
 
 figcaption {
-    color: var(--primary-light);
+    color: var(--base5);
     font-size: 0.8rem;
     line-height: 1.3rem;
     text-align: center;
-    margin-top: 0.4em;
+    margin-top: 0.25rem;
 }
 
-time {
-    color: var(--grey);
-}
-
-.list > :first-child,
-.no-margin {
-    margin-top: 0;
-}
-
-.song {
+.pagination {
     display: flex;
-    gap: 2rem;
-}
-
-.song .details {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     justify-content: space-between;
-    width: 50rem;
+    margin-top: 5rem;
 }
 
-.song .details h4 {
-    margin-top: 0;
+.pagination a.secondary {
+    text-decoration: none;
 }
 
-.song .details a {
-    display: inline-block;
-    background-color: hsl(0, 0%, 96%);
-    text-align: center;
-    padding: 1rem;
-    border: 1px solid var(--grey-lighter);
-}
-
-/* <-- --> */
-
-header {
-    padding: 5rem 0;
-    border-bottom: 1px solid var(--grey-lighter);
-}
-
-header h1 {
-    padding: 0;
-    background-color: hsl(0, 0%, 100%);
-}
-
-header h1 {
-    font-size: 3rem;
-    text-align: center;
-    margin: 0;
-}
-
-nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 0 1rem;
-}
-
-nav a {
-    padding: 1.5rem 2rem;
-    margin: 0;
-    margin-bottom: -1.5rem;
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 4rem;
-    margin: 10rem 0;
-}
-
-aside {
-    width: 18rem;
-    padding: 0 1rem;
-}
-
-aside.secondary {
-    transition: opacity 500ms;
-    opacity: 0.3;
-}
-
-aside.secondary:hover {
-    opacity: 1;
-}
-
-aside h4 {
-    margin-top: 0;
-}
-
-main {
-    max-width: 38rem;
-    width: 100%;
-    padding: 0 1rem;
-}
-
-main > *:last-child {
-    margin-bottom: 0;
-}
-
-footer {
-    text-align: center;
-    padding: 8rem 1rem;
-    background-color: hsl(0, 0%, 96%);
-    border-top: 1px solid var(--grey-lighter);
-}
-
-footer p span {
-    font-size: 1.3rem;
-    color: var(--primary-lighter);
-}
-
-footer p time {
-    color: var(--primary-lighter);
+.previous,
+.next {
+    flex-basis: 100%;
+    color: var(--base5);
     font-weight: normal;
 }
 
-footer p:last-of-type {
-    display: inline-block;
-    padding: 1rem;
-    background-color: hsl(0, 0%, 100%);
-    border: 1px solid var(--grey-lighter);
-    margin: 0 auto;
+.previous a.secondary,
+.next a.secondary {
+    font-weight: normal;
 }
 
-/* <-- --> */
+.next {
+    text-align: right;
+}
 
-@media (max-width: 70rem) {
-    .container {
-        display: block;
-        margin: 5rem 0;
+.previous span,
+.next span {
+    color: var(--base3);
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    padding-top: 3rem;
+    border-top: 1px solid hsl(0, 0%, 92%);
+    margin-top: 6rem;
+    color: var(--base3);
+}
+
+footer p {
+    text-align: right;
+    margin-bottom: 0;
+}
+
+footer nav a.secondary {
+    color: var(--base7);
+    font-weight: normal;
+    text-decoration: none;
+}
+
+footer nav a.secondary:hover {
+    text-decoration: none;
+}
+
+footer p span {
+    color: var(--base7);
+}
+
+footer p time {
+    color: var(--base7);
+}
+
+@media (max-width: 42rem) {
+    * {
+        font-size: 1rem;
     }
 
-    header {
-        padding: 2.5rem 1rem;
+    body {
+        padding: 1rem;
     }
 
-    nav a {
-        flex: 1;
-        text-align: center;
+    h1 {
+        font-size: 3rem;
     }
 
-    aside {
-        display: none;
+    h2 {
+        font-size: 2.4rem;
     }
 
-    main {
-        width: auto;
-        margin: 0 auto;
+    h3 {
+        font-size: 1.9rem;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+    }
+
+    h5 {
+        font-size: 1.2rem;
+    }
+
+    h6 {
+        font-size: 1rem;
     }
 
     footer {
-        padding: 4rem 1rem;
+        padding-bottom: 3rem;
     }
 }

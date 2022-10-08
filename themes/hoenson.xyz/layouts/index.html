@@ -1,13 +1,14 @@
 {{ define "main" }}
-    <h1>{{ .Title }}</h1>
     {{ .Content }}
-    <h2>Latest works</h2>
-    <ul class="secondary">
-        {{ range first 5 .Site.RegularPages }}
-        <li>
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-            / <a class="secondary" href="{{ .CurrentSection.RelPermalink }}">{{ title .CurrentSection.Title }}</a>
-        </li>
+    <div class="posts">
+        {{ range .Site.RegularPages }}
+            <div class="post">
+                <p>
+                    <span>{{ .Params.categories }}</span>
+                    | {{ .Date.Format "January 2, 2006" }}
+                </p>
+                <h5><a href="{{ .RelPermalink }}">{{ .Title }}</a></h5>
+            </div>
         {{ end }}
-    </ul>
+    </div>
 {{ end }}

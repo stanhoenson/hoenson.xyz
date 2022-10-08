@@ -2,15 +2,13 @@
     <h1>Stan Hoenson</h1>
     <nav>
         {{ $currentPage := . }}
-        {{ $currentSection := title $currentPage.Section }}
         {{ range .Site.Menus.header }}
-        <a 
-            {{ if or ($currentPage.IsMenuCurrent "header" .) (eq $currentSection .Name) }}
-            class="active" 
+        <h6>
+            {{ if $currentPage.IsMenuCurrent "header" . }}
+                <a class="active" href="{{ .URL }}">{{ .Name }}</a>
             {{ else }}
-            class="secondary"
+                <a class="secondary" href="{{ .URL }}">{{ .Name }}</a>
             {{ end }}
-            href="{{ .URL }}">{{ .Name }}</a>
         {{ end }}
     </nav>
 </header>

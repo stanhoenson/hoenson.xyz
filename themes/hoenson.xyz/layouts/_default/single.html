@@ -1,9 +1,21 @@
 {{ define "main" }}
-    {{ if eq .Date .Lastmod }}
-    <p class="secondary">Posted on {{ .Date.Format "January 02, 2006" }}</p>
-    {{ else }}
-    <p class="secondary">Last modified on {{ .Lastmod.Format "January 02, 2006" }}</p>
-    {{ end }}
-    <h1>{{ .Title }}</h1>
+    <header>
+        <h1>{{ .Title }}</h1>
+        <h6 class="secondary">{{ .Date.Format "January 2, 2006" }}</h6>
+    </header>
     {{ .Content }}
+    <div class="pagination">
+        {{ with .Prev }}
+            <div class="previous">
+                <a class="secondary" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                | <span>PREVIOUS<span>
+            </div>
+        {{ end }}
+        {{ with .Next }}
+            <div class="next">
+                <span>NEXT</span> |
+                <a class="secondary" href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </div>
+        {{ end }}
+    </div>
 {{ end }}

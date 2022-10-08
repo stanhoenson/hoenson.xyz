@@ -1,9 +1,0 @@
-{{ define "main" }}
-    {{ if eq .Date .Lastmod }}
-    <p class="secondary">Posted on {{ .Date.Format "January 02, 2006" }}</p>
-    {{ else }}
-    <p class="secondary">Last modified on {{ .Lastmod.Format "January 02, 2006" }}</p>
-    {{ end }}
-    <h1>{{ .Title }}</h1>
-    {{ .Content }}
-{{ end }}
