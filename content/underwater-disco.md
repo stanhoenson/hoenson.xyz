@@ -2,7 +2,7 @@
 title: "Underwater Disco"
 date: 2016-08-16
 draft: false
-categories: Song
+categories: Songs
 ---
 
 Lorem ipsum **dolor** sit amet, consectetur adipiscing elit.

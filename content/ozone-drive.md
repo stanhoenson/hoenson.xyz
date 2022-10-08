@@ -2,7 +2,7 @@
 title: "Ozone Drive"
 date: 2018-10-12
 draft: false
-categories: Song
+categories: Songs
 ---
 
 Lorem ipsum **dolor** sit amet, consectetur adipiscing elit.

@@ -2,7 +2,7 @@
 title: "hoenson.xyz"
 date: 2022-10-08
 draft: false
-categories: Website
+categories: Websites
 ---
 
 Lorem ipsum **dolor** sit amet, consectetur adipiscing elit.
