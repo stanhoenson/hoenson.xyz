@@ -7,13 +7,13 @@
     <div class="pagination">
         {{ with .Prev }}
             <div class="previous">
+                <span>PREVIOUS<span><br>
                 <a class="secondary" href="{{ .RelPermalink }}">{{ .Title }}</a>
-                | <span>PREVIOUS<span>
             </div>
         {{ end }}
         {{ with .Next }}
             <div class="next">
-                <span>NEXT</span> |
+                <span>NEXT</span><br>
                 <a class="secondary" href="{{ .RelPermalink }}">{{ .Title }}</a>
             </div>
         {{ end }}
