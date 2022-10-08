@@ -4,7 +4,7 @@
         <nav>
             {{ range .Site.Menus.header }}
             <h6>
-                {{ if eq .Name "Categories" }}
+                {{ if eq .Name "Tags" }}
                     <a class="active" href="{{ .URL }}">{{ .Name }}</a>
                 {{ else }}
                     <a class="secondary" href="{{ .URL }}">{{ .Name }}</a>
@@ -18,9 +18,7 @@
         {{ range .Pages }}
             <div class="post">
                 <p>
-                    <span>
-                        {{ strings.TrimSuffix "s" .Params.categories }}
-                    </span>
+                    <span>{{ strings.TrimSuffix "s" .Params.categories }}</span>
                     | {{ .Date.Format "January 2, 2006" }}
                 </p>
                 <h5><a href="{{ .RelPermalink }}">{{ .Title }}</a></h5>

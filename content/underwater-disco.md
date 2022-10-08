@@ -3,6 +3,9 @@ title: "Underwater Disco"
 date: 2016-08-16
 draft: false
 categories: Songs
+tags:
+- House
+- Watery
 ---
 
 Lorem ipsum **dolor** sit amet, consectetur adipiscing elit.
