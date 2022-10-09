@@ -25,3 +25,5 @@ Apart from finishing college, I'm focusing on the following things:
 This website serves as a place for me to share my work (and hopefully inspire other people as well).
 I want it to be in between a **private journal** and a **professional portfolio**.
 Not too personal, not too formal. Just the right balance of quality **and** quantity.
+
+You can read more on **how** it's built [here](../hoenson).
