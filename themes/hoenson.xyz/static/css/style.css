@@ -104,13 +104,14 @@ h1 {
 }
 
 h2 {
-    font-size: 3rem;
-}
-
-h3 {
     font-size: 2.4rem;
 }
 
+h3 {
+    font-size: 1.9rem;
+}
+
+h3,
 h4,
 h5,
 h6 {
@@ -180,7 +181,7 @@ h6 a.secondary:hover {
     margin-top: 0;
 }
 
-.term h3 {
+.term h2 {
     margin-bottom: 0;
     /*
     line-height: 1em;

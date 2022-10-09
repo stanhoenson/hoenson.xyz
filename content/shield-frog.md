@@ -20,7 +20,7 @@ In sagittis tempor eros vel pretium.
 Lorem ipsum **dolor** sit amet, consectetur adipiscing elit.
 In sagittis tempor eros vel pretium.
 
-### Lorem ipsum
+## Lorem ipsum
 
 Lorem ipsum **dolor** sit amet, consectetur adipiscing elit.
 Mauris *feugiat* dolor sed eleifend fermentum.
