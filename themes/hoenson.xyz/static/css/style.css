@@ -111,6 +111,14 @@ h3 {
     font-size: 2.4rem;
 }
 
+h4,
+h5,
+h6 {
+    font-weight: 500;
+    color: var(--base2);
+}
+
+
 h4 {
     font-size: 1.9rem;
 }
