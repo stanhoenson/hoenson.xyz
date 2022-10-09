@@ -52,6 +52,11 @@
     --base6: hsl(0, 0%, 60%);
     --base7: hsl(0, 0%, 70%);
     --base8: hsl(0, 0%, 80%);
+    --base9: hsl(0, 0%, 90%);
+
+    --mustard1: hsl(50, 35%, 55%);
+    --mustard2: hsl(50, 55%, 75%);
+    --pink: hsl(350, 100%, 45%);
 }
 
 * {
@@ -63,7 +68,6 @@
 html {
     font-family: var(--sans-serif);
     color: var(--base2);
-    line-height: 1.6em;
     background-color: hsl(10, 50%, 98%);
 }
 
@@ -81,6 +85,20 @@ nav {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem 2rem;
+}
+
+main {
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    color: var(--base3);
+    padding-top: 3rem;
+    border-top: 1px solid hsl(0, 0%, 92%);
+    margin-top: 6rem;
 }
 
 h1,
@@ -107,10 +125,6 @@ h2 {
     font-size: 2.4rem;
 }
 
-h3 {
-    font-size: 1.9rem;
-}
-
 h3,
 h4,
 h5,
@@ -119,6 +133,9 @@ h6 {
     color: var(--base2);
 }
 
+h3 {
+    font-size: 1.9rem;
+}
 
 h4 {
     font-size: 1.9rem;
@@ -181,12 +198,12 @@ h6 a.secondary:hover {
     margin-top: 0;
 }
 
-.item h5 .term {
+.term h5 .term {
     color: hsl(200, 55%, 35%);
     text-decoration: 2px underline hsl(200, 75%, 75%);
 }
 
-.item h5 .term:hover {
+.term h5 .term:hover {
     text-decoration: 2px underline hsl(200, 55%, 35%);
 }
 
@@ -201,6 +218,23 @@ h6 a.secondary:hover {
 .term h6.secondary {
     font-weight: 500;
     margin-bottom: 2rem;
+}
+
+.terms {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.terms .term {
+    flex-basis: 50%;
+}
+
+.terms h5 {
+    margin-bottom: 0;
+}
+
+.terms p {
+    color: var(--base5);
 }
 
 a {
@@ -310,16 +344,6 @@ figcaption {
 .next span {
     color: var(--base3);
     font-weight: bold;
-}
-
-footer {
-    display: flex;
-    justify-content: space-between;
-    gap: 4rem;
-    padding-top: 3rem;
-    border-top: 1px solid hsl(0, 0%, 92%);
-    margin-top: 6rem;
-    color: var(--base3);
 }
 
 footer p {
