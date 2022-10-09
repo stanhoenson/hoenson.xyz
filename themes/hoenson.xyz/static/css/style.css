@@ -211,7 +211,7 @@ a.secondary {
 
 a.active,
 a.secondary:hover {
-    color: hsl(350, 90%, 45%);
+    color: hsl(350, 100%, 45%);
     text-decoration: 2px underline;
 }
 
