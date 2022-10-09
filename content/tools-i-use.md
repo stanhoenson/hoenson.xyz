@@ -2,7 +2,7 @@
 title: "Tools I Use"
 date: 2022-10-09
 draft: false
-categories: Article
+categories: Articles
 ---
 
 On this page I list al the **tools** I use for my work.
