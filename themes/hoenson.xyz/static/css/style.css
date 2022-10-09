@@ -181,6 +181,15 @@ h6 a.secondary:hover {
     margin-top: 0;
 }
 
+.item h5 .term {
+    color: hsl(200, 55%, 35%);
+    text-decoration: 2px underline hsl(200, 75%, 75%);
+}
+
+.item h5 .term:hover {
+    text-decoration: 2px underline hsl(200, 55%, 35%);
+}
+
 .term h2 {
     margin-bottom: 0;
     /*
