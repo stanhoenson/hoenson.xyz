@@ -21,9 +21,11 @@
         {{ range .Pages }}
             <div class="post">
                 <p>
-                    <span class="uppercase">
-                        {{ strings.TrimSuffix "s" .Params.categories }}
-                    </span>
+                    {{ $category := .Params.categories }}
+                    {{ $url := printf "/categories/%s" $category | lower }}
+                    <a class="uppercase" href="{{ $url }}">
+                        {{ strings.TrimSuffix "s" $category }}
+                    </a>
                     | <time>{{ .Date.Format "January 2, 2006" }}</time>
                 </p>
                 <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>

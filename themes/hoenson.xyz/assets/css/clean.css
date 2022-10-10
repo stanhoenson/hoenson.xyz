@@ -200,6 +200,7 @@ figure {
 img,
 audio {
     width: 100%;
+    border-radius: 0.5rem;
 }
 
 audio {
@@ -229,6 +230,7 @@ header h5 a {
 }
 
 a.secondary:hover,
+a.uppercase:hover,
 a.active {
     color: var(--neon-pink);
 }
@@ -239,14 +241,16 @@ a.secondary {
     text-decoration: none;
 }
 
-a.active {
-    text-decoration: none;
-}
-
-.uppercase {
+a.uppercase {
+    transition: color 150ms;
     color: var(--base3);
     font-weight: bold;
+    text-decoration: none;
     text-transform: uppercase;
+}
+
+a.active {
+    text-decoration: none;
 }
 
 .posts > *:last-child {
