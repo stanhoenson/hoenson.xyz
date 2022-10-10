@@ -67,6 +67,7 @@
 html {
     font-family: var(--sans-serif);
     color: var(--base2);
+    background-color: var(--grey);
 }
 
 * {
@@ -171,7 +172,6 @@ a:hover {
 /* "Document Spacing" */
 
 body {
-    background-color: var(--grey);
     max-width: 40rem;
     padding: 6rem 1rem;
     margin: 0 auto;
