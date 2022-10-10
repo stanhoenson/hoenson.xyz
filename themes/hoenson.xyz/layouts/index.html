@@ -1,10 +1,10 @@
 {{ define "main" }}
     {{ .Content }}
-    <div class="items">
+    <div class="posts">
         {{ range .Site.RegularPages }}
-            <div class="item">
+            <div class="post">
                 <p>
-                    <span>
+                    <span class="uppercase">
                         {{ strings.TrimSuffix "s" .Params.categories }}
                     </span>
                     | {{ .Date.Format "January 2, 2006" }}
