@@ -230,7 +230,6 @@ header h5 a {
 }
 
 a.secondary:hover,
-a.uppercase:hover,
 a.active {
     color: var(--neon-pink);
 }
@@ -247,6 +246,10 @@ a.uppercase {
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+a.uppercase:hover {
+    color: var(--base6);
 }
 
 a.active {
