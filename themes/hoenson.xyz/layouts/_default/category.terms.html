@@ -3,8 +3,11 @@
     <div class="terms">
         {{ range .Data.Terms.Alphabetical }}
             <div class="term">
-                <h5><a class="term" href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></h5>
-                <p>{{ .Page.Params.description }}</p>
+                <h3>{{ .Count }}</h3>
+                <div class="info">
+                    <h4><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></h4>
+                    <p>{{ .Page.Params.description }}</p>
+                </div>
             </div>
         {{ end }}
     </div>

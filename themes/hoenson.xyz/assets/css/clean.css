@@ -56,8 +56,10 @@
 
     --mustard1: hsl(50, 55%, 35%);
     --mustard2: hsl(50, 75%, 75%);
+    --blue1: hsl(200, 55%, 35%);
+    --blue2: hsl(200, 75%, 75%);
     --neon-pink: hsl(350, 100%, 45%);
-    --warm-white: hsl(10, 50%, 98%);
+    --warm-white: hsl(10, 20%, 96%);
 }
 
 /* "Document Typography" */
@@ -268,6 +270,50 @@ a.active {
     color: var(--base5);
 }
 
+.terms {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.term {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-basis: 48%;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+.term h3 {
+    height: fit-content;
+    color: var(--base3);
+    font-weight: bold;
+    padding-right: 1.5rem;
+    padding-left: 0.5rem;
+}
+
+.term h3,
+.term h4,
+.term p {
+    margin: 0;
+}
+
+.term p {
+    color: var(--base5);
+}
+
+.title h2 {
+    margin: 0;
+}
+
+.title h5 {
+    color: var(--base5);
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
 .pagination {
     display: flex;
     justify-content: space-between;
@@ -297,48 +343,6 @@ footer p {
     color: var(--base7);
     text-align: right;
     margin-bottom: 0;
-}
-
-/* --- */
-
-h6.secondary {
-    margin-top: 0;
-    margin-bottom: 4rem;
-}
-
-.term h5 .term {
-    color: hsl(200, 55%, 35%);
-    text-decoration: 2px underline hsl(200, 75%, 75%);
-}
-
-.term h5 .term:hover {
-    text-decoration: 2px underline hsl(200, 55%, 35%);
-}
-
-.term h2 {
-    margin-bottom: 0;
-}
-
-.term h6.secondary {
-    font-weight: 500;
-    margin-bottom: 2rem;
-}
-
-.terms {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.terms .term {
-    flex-basis: 50%;
-}
-
-.terms h5 {
-    margin-bottom: 0;
-}
-
-.terms p {
-    color: var(--base5);
 }
 
 @media (max-width: 42rem) {

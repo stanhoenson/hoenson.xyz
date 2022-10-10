@@ -1,10 +1,13 @@
 {{ define "main" }}
     {{ .Content }}
-    <div class="posts">
+    <div class="terms">
         {{ range .Data.Terms.Alphabetical }}
-            <div class="post">
-                <p><span class="uppercase">{{ .Count }}</span> | {{ .Page.Params.description }}</p>
-                <h4><a class="term" href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></h4>
+            <div class="term">
+                <h3>{{ .Count }}</h3>
+                <div class="info">
+                    <h4><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></h4>
+                    <p>{{ .Page.Params.description }}</p>
+                </div>
             </div>
         {{ end }}
     </div>
