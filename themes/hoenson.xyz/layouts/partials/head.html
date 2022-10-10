@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ .Title }} | {{ .Site.Title }}</title>
     {{ $reset := resources.Get "css/reset.css" | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $reset.Permalink }}">
+    <link rel="stylesheet" href="{{ $reset.RelPermalink }}">
     {{ $clean := resources.Get "css/clean.css" | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $clean.Permalink }}">
+    <link rel="stylesheet" href="{{ $clean.RelPermalink }}">
 </head>
