@@ -2,8 +2,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ .Title }} | {{ .Site.Title }}</title>
-    {{ $reset := resources.Get "css/reset.css" | fingerprint }}
+    {{ $reset := resources.Get "css/reset.css" | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $reset.Permalink }}">
-    {{ $clean := resources.Get "css/clean.css" | fingerprint }}
+    {{ $clean := resources.Get "css/clean.css" | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $clean.Permalink }}">
 </head>
