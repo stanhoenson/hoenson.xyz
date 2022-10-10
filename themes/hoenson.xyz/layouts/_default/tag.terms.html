@@ -4,6 +4,7 @@
         {{ range .Data.Terms.Alphabetical }}
             <div class="term">
                 <h3>{{ .Count }}</h3>
+                <a class="link" href="{{ .Page.Permalink }}"></a>
                 <div class="info">
                     <h4><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></h4>
                     <p>{{ .Page.Params.description }}</p>
