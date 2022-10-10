@@ -3,13 +3,14 @@
         <h1>Stan Hoenson</h1>
         <nav>
             {{ range .Site.Menus.header }}
-            <h6>
+            <h5>
                 {{ if eq .Name "Tags" }}
                     <a class="active" href="{{ .URL }}">{{ .Name }}</a>
                 {{ else }}
                     <a class="secondary" href="{{ .URL }}">{{ .Name }}</a>
                 {{ end }}
             {{ end }}
+            </h5>
         </nav>
     </header>
     <div class="term">
@@ -23,9 +24,9 @@
                     <span class="uppercase">
                         {{ strings.TrimSuffix "s" .Params.categories }}
                     </span>
-                    | {{ .Date.Format "January 2, 2006" }}
+                    | <time>{{ .Date.Format "January 2, 2006" }}</time>
                 </p>
-                <h5><a href="{{ .RelPermalink }}">{{ .Title }}</a></h5>
+                <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
             </div>
         {{ end }}
     </div>

@@ -7,9 +7,10 @@
                     <span class="uppercase">
                         {{ strings.TrimSuffix "s" .Params.categories }}
                     </span>
-                    | {{ .Date.Format "January 2, 2006" }}
+                    | 
+                    <time>{{ .Date.Format "January 2, 2006" }}</time>
                 </p>
-                <h5><a href="{{ .RelPermalink }}">{{ .Title }}</a></h5>
+                <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
             </div>
         {{ end }}
     </div>
