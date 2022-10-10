@@ -351,6 +351,7 @@ a.active {
 .next a.secondary {
     font-weight: normal;
     padding-top: 2rem;
+    margin-top: -2rem;
 }
 
 .previous a.uppercase:hover,
