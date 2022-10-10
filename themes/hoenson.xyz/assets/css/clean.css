@@ -347,6 +347,18 @@ a.active {
 .previous a.secondary,
 .next a.secondary {
     font-weight: normal;
+    padding-top: 2rem;
+}
+
+.previous a.uppercase:hover,
+.next a.uppercase:hover {
+    display: inline-block;
+    color: var(--base3);
+}
+
+.previous a.uppercase:hover + br + a.secondary,
+.next a.uppercase:hover + br + a.secondary {
+    color: var(--neon-pink);
 }
 
 .next {
