@@ -59,7 +59,7 @@
     --blue1: hsl(200, 55%, 35%);
     --blue2: hsl(200, 75%, 75%);
     --neon-pink: hsl(350, 100%, 45%);
-    --warm-white: hsl(10, 20%, 96%);
+    --grey: hsl(0, 0%, 96%);
 }
 
 /* "Document Typography" */
@@ -171,7 +171,7 @@ a:hover {
 /* "Document Spacing" */
 
 body {
-    background-color: var(--warm-white);
+    background-color: var(--grey);
     max-width: 40rem;
     padding: 6rem 1rem;
     margin: 0 auto;
