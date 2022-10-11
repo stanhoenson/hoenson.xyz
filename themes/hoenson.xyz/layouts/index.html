@@ -1,6 +1,46 @@
 {{ define "main" }}
     {{ .Content }}
-    <div class="posts">
+    <div class="title">
+        <h2>Best posts</h2>
+        <h5 class="secondary">The work I'm most proud of</h5>
+    </div>
+    <div class="posts card" id="best">
+        <div class="post">
+            <p>
+                <a class="uppercase" href="/categories/songs">
+                    Song
+                </a>
+                |
+                <time>August 16, 2016</time>
+            </p>
+            <h4><a href="/underwater-disco">Underwater Disco</a></h4>
+        </div>
+        <div class="post">
+            <p>
+                <a class="uppercase" href="/categories/songs">
+                    Song
+                </a>
+                |
+                <time>October 12, 2018</time>
+            </p>
+            <h4><a href="/ozone-drive">Ozone Drive</a></h4>
+        </div>
+        <div class="post">
+            <p>
+                <a class="uppercase" href="/categories/demos">
+                    Demo
+                </a>
+                |
+                <time>May 31, 2022</time>
+            </p>
+            <h4><a href="/color-glitch-complete">Color Glitch Complete (Showcase)</a></h4>
+        </div>
+    </div>
+    <div class="title">
+        <h2>All posts</h2>
+        <h5 class="secondary">Everything from new to old</h5>
+    </div>
+    <div class="posts card">
         {{ range .Site.RegularPages }}
             <div class="post">
                 <p>

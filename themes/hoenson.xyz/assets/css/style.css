@@ -233,6 +233,10 @@ header h5 a {
     font-weight: 500;
 }
 
+.card {
+    box-shadow: 0 0.25rem 0.5rem hsl(0, 0%, 93%);
+}
+
 a.secondary:hover,
 a.active {
     color: var(--neon-pink);
@@ -260,6 +264,16 @@ a.active {
     text-decoration: none;
 }
 
+.posts {
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+.posts#best {
+    margin-bottom: 4rem;
+}
+
 .posts > *:last-child {
     margin-bottom: 0;
 }
@@ -269,7 +283,7 @@ a.active {
 }
 
 .post h4 {
-    margin-top: 0;
+    margin: 0;
 }
 
 .post p {
@@ -330,14 +344,17 @@ a.active {
     text-decoration: 2px underline;
 }
 
+.title {
+    margin-bottom: 1rem;
+}
+
 .title h2 {
     margin: 0;
 }
 
 .title h5 {
     color: var(--base5);
-    margin-top: 0;
-    margin-bottom: 2rem;
+    margin: 0;
 }
 
 .end {
@@ -397,8 +414,8 @@ a.tag:hover {
 .previous a.secondary,
 .next a.secondary {
     font-weight: normal;
-    padding-top: 2rem;
-    margin-top: -2rem;
+    padding-top: 1.75rem;
+    margin-top: -1.75rem;
 }
 
 .previous a.uppercase:hover,

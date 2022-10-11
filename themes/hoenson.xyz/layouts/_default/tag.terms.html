@@ -2,7 +2,7 @@
     {{ .Content }}
     <div class="terms">
         {{ range .Data.Terms.Alphabetical }}
-            <div class="term">
+            <div class="term card">
                 <h3>{{ .Count }}</h3>
                 <a class="link" href="{{ .Page.Permalink }}"></a>
                 <div class="info">
