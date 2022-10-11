@@ -4,6 +4,6 @@
     <title>{{ .Title }} | {{ .Site.Title }}</title>
     {{ $reset := resources.Get "css/reset.css" | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $reset.RelPermalink }}">
-    {{ $clean := resources.Get "css/clean.css" | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $clean.RelPermalink }}">
+    {{ $style := resources.Get "css/style.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 </head>
