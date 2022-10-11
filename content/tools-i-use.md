@@ -4,7 +4,7 @@ date: 2022-10-09
 draft: false
 categories: Articles
 tags:
-- Technology
+- Software
 - Stationery
 ---
 
