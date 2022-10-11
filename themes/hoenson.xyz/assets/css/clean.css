@@ -192,6 +192,10 @@ main > *:last-child {
     margin-bottom: 0;
 }
 
+article {
+    margin-bottom: 3rem;
+}
+
 figure {
     margin-top: 3rem;
     margin-bottom: 2.5rem;
@@ -336,10 +340,53 @@ a.active {
     margin-bottom: 2rem;
 }
 
+.end {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    margin-bottom: 3rem;
+}
+
+.end h4 {
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.end h4:first-child {
+    margin-top: 0;
+}
+
+.end p {
+    margin-bottom: 0;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+a.tag {
+    transition: border 150ms;
+    display: inline-block;
+    font-family: var(--monospace);
+    color: var(--neon-pink);
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: lowercase;
+    padding: 0.25rem 0.75rem;
+    border: 1px solid var(--base9);
+    border-radius: 2rem;
+}
+
+a.tag:hover {
+    border: 1px solid var(--neon-pink);
+}
+
 .pagination {
     display: flex;
     justify-content: space-between;
-    margin-top: 4rem;
 }
 
 .previous,
@@ -421,5 +468,6 @@ footer p {
 
     footer {
         padding-bottom: 3rem;
+        margin-top: 3rem;
     }
 }

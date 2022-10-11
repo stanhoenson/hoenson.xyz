@@ -3,7 +3,26 @@
         <h1>{{ .Title }}</h1>
         <h5>{{ .Date.Format "January 2, 2006" }}</h5>
     </header>
-    {{ .Content }}
+    <article>
+        {{ .Content }}
+    </article>
+    <div class="end">
+        <h4>Tags</h4>
+        {{ $tags := .Params.tags }}
+        {{ if $tags }}
+        <div class="tags">
+            {{ range .Params.tags }}
+                <a class="tag" href="/tags/{{ . | urlize }}">{{ . }}</a>
+            {{ end }}
+        </div>
+        {{ end }}
+        <h4>Discuss</h4>
+        <p>
+            Have any thoughts, comments or recommendations? 
+            Please share them with me by mailing me at
+            <a href="mailto:stan@hoenson.xyz">stan@hoenson.xyz</a>.
+        </p>
+    </div>
     <div class="pagination">
         {{ with .Prev }}
             <div class="previous">
