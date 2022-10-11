@@ -1,15 +1,10 @@
 {{ define "main" }}
     {{ .Content }}
-    <div class="terms">
-        {{ range .Data.Terms.Alphabetical }}
-            <div class="term card">
-                <h3>{{ .Count }}</h3>
-                <a class="link" href="{{ .Page.Permalink }}"></a>
-                <div class="info">
-                    <h4><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></h4>
-                    <p>{{ .Page.Params.description }}</p>
-                </div>
-            </div>
-        {{ end }}
-    </div>
+    {{ range .Data.Terms.Alphabetical }}
+        <div class="tags">
+            <a class="tag" href="{{ .Page.Permalink }}">
+                {{ .Page.Title }}
+            </a>
+        </div>
+    {{ end }}
 {{ end }}
