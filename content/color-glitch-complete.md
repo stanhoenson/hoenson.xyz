@@ -3,6 +3,8 @@ title: "Color Glitch Complete (Showcase)"
 date: 2022-05-31
 draft: false
 categories: Demos
+tags:
+- Mix
 ---
 
 Lorem ipsum **dolor** sit amet, consectetur adipiscing elit.

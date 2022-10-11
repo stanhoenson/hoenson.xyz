@@ -3,6 +3,9 @@ title: "hoenson.xyz"
 date: 2022-10-08
 draft: false
 categories: Websites
+tags:
+- Hugo
+- Programming
 ---
 
 Lorem ipsum **dolor** sit amet, consectetur adipiscing elit.

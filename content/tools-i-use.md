@@ -3,6 +3,9 @@ title: "Tools I Use"
 date: 2022-10-09
 draft: false
 categories: Articles
+tags:
+- Technology
+- Stationery
 ---
 
 On this page I list al the **tools** I use for my work.
