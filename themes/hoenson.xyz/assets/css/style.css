@@ -388,7 +388,7 @@ a.tag {
     display: inline-block;
     font-family: var(--monospace);
     color: var(--neon-pink1);
-    font-size 0.9rem;
+    font-size: 0.9rem;
     font-weight: normal;
     text-decoration: none;
     text-transform: lowercase;
@@ -472,6 +472,10 @@ footer p {
 
     h5 {
         font-size: 1.1rem;
+    }
+
+    a.tag {
+        font-size: 0.8rem;
     }
 
     .terms {
