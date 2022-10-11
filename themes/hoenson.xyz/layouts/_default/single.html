@@ -7,14 +7,14 @@
         {{ .Content }}
     </article>
     <div class="end">
-        <h4>Tags</h4>
         {{ $tags := .Params.tags }}
-        {{ if $tags }}
-        <div class="tags">
-            {{ range .Params.tags }}
-                <a class="tag" href="/tags/{{ . | urlize }}">{{ . }}</a>
-            {{ end }}
-        </div>
+        {{ if isset .Params "tags" }}
+            <h4>Tags</h4>
+            <div class="tags">
+                {{ range .Params.tags }}
+                    <a class="tag" href="/tags/{{ . | urlize }}">{{ . }}</a>
+                {{ end }}
+            </div>
         {{ end }}
         <h4>Discuss</h4>
         <p>
