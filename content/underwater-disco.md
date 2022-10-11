@@ -5,6 +5,7 @@ draft: false
 categories: Songs
 tags:
 - House
+weight: 1
 ---
 
 Lorem ipsum **dolor** sit amet, consectetur adipiscing elit.
