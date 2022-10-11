@@ -357,6 +357,7 @@ a.active {
 
 .title h5 {
     color: var(--base5);
+    font-weight: normal;
     margin: 0;
 }
 
@@ -483,6 +484,10 @@ footer p {
     }
 
     .end {
+        padding: 1rem;
+    }
+
+    .posts {
         padding: 1rem;
     }
 
