@@ -24,14 +24,15 @@
         </p>
     </div>
     <div class="pagination">
-        {{ with .Prev }}
+        {{ $posts := where site.RegularPages "Kind" "page" }}
+        {{ with $posts.ByDate.Prev . }}
             <div class="previous">
                 <!-- <span class="uppercase">Previous</span><br> -->
                 <a class="uppercase" href="{{ .RelPermalink }}">Previous</a><br>
                 <a class="secondary" href="{{ .RelPermalink }}">{{ .Title }}</a>
             </div>
         {{ end }}
-        {{ with .Next }}
+        {{ with $posts.ByDate.Next . }}
             <div class="next">
                 <a class="uppercase" href="{{ .RelPermalink }}">Next</a><br>
                 <a class="secondary" href="{{ .RelPermalink }}">{{ .Title }}</a>
