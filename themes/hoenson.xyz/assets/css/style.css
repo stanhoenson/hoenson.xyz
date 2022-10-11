@@ -54,15 +54,14 @@
     --base8: hsl(0, 0%, 80%);
     --base9: hsl(0, 0%, 90%);
 
+    --grey: hsl(0, 0%, 95%);
+
     --mustard1: hsl(50, 55%, 35%);
     --mustard2: hsl(50, 75%, 75%);
-    --blue1: hsl(200, 55%, 35%);
-    --blue2: hsl(200, 75%, 75%);
     --neon-pink1: hsl(350, 100%, 45%);
     --neon-pink2: hsl(350, 100%, 65%);
     --neon-pink3: hsl(350, 100%, 85%);
-    --neon-pink4: hsl(350, 100%, 97%);
-    --grey: hsl(0, 0%, 96%);
+    --neon-pink4: hsl(350, 100%, 97.5%);
 }
 
 /* "Document Typography" */
@@ -416,7 +415,6 @@ a.tag:hover {
 .next a.secondary {
     font-weight: normal;
     padding-top: 1.75rem;
-    margin-top: -1.75rem;
 }
 
 .previous a.uppercase:hover,
