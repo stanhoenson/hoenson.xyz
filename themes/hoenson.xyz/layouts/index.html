@@ -25,7 +25,7 @@
         <h5 class="secondary">Everything from new to old</h5>
     </div>
     <div class="posts card">
-        {{ range .Site.RegularPages }}
+        {{ range .Site.RegularPages.ByDate.Reverse }}
             <div class="post">
                 <p>
                     {{ $category := .Params.categories }}
