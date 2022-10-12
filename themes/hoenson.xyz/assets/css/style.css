@@ -235,6 +235,26 @@ header h5 a {
     font-weight: 500;
 }
 
+article header {
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+article header h5 {
+    color: var(--base8);
+    font-weight: normal;
+}
+
+article header h5 time {
+    font-weight: 500;
+    color: var(--base5);
+}
+
+article header .tags {
+    margin-top: 2rem;
+}
+
 a.secondary:hover,
 a.active {
     color: var(--neon-pink1);
@@ -283,7 +303,7 @@ a.active {
 }
 
 .post p {
-    color: var(--base7);
+    color: var(--base8);
     margin-bottom: 0;
 }
 
@@ -480,7 +500,8 @@ footer p {
         grid-template-columns: 1fr;
     }
 
-    .end {
+    .end,
+    article header {
         padding: 1rem;
     }
 

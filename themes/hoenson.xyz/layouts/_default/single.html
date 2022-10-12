@@ -1,9 +1,36 @@
 {{ define "main" }}
     <header>
-        <h1>{{ .Title }}</h1>
-        <h5>{{ .Date.Format "January 2, 2006" }}</h5>
+        <h1>Stan Hoenson</h1>
+        <nav>
+            {{ range .Site.Menus.header }}
+                <h5>
+                    <a class="secondary" href="{{ .URL }}">{{ .Name }}</a>
+                </h5>
+            {{ end }}
+        </nav>
     </header>
     <article>
+        <header>
+            <h1>{{ .Title }}</h1>
+            <h5>
+                {{ $category := .Params.categories }}
+                {{ $url := printf "/categories/%s" $category | lower }}
+                <a class="uppercase" href="{{ $url }}">
+                    {{ strings.TrimSuffix "s" $category }}
+                </a>
+                | 
+                <time>{{ .Date.Format "January 2, 2006" }}</time>
+            </h5>
+            {{ $tags := .Params.tags }}
+            {{ if isset .Params "tags" }}
+                <div class="tags">
+                    {{ range .Params.tags }}
+                        {{ $url := printf "/tags/%s" . | lower }}
+                        <a class="tag" href="{{ $url }}">{{ . }}</a>
+                    {{ end }}
+                </div>
+            {{ end }}
+        </header>
         {{ .Content }}
     </article>
     <div class="end card">
