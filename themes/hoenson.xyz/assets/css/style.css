@@ -492,6 +492,10 @@ footer p {
         font-size: 1.1rem;
     }
 
+    nav {
+        gap: 1rem 1.5rem;
+    }
+
     a.tag {
         font-size: 0.8rem;
     }
@@ -503,6 +507,10 @@ footer p {
     .end,
     article header {
         padding: 1rem;
+    }
+
+    article header h1 {
+        font-size: 1.9rem;
     }
 
     footer {
