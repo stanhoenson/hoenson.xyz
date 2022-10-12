@@ -7,47 +7,30 @@ tags:
 - House
 ---
 
-Lorem ipsum **dolor** sit amet, consectetur adipiscing elit.
-Mauris *feugiat* dolor sed eleifend fermentum.
-In [sagittis]() tempor eros vel pretium.
-Integer in pulvinar elit, rutrum fermentum nulla.
+Shield Frog is a **cute** house song with a **froggy** melody.
+Imagine the melody being sung by the frog in the cover art, it might make you chuckle.
 
-Mauris *feugiat* dolor sed eleifend fermentum.
-In sagittis tempor eros vel pretium.
-Lorem ipsum **dolor** sit amet, consectetur adipiscing elit.
-Mauris *feugiat* dolor sed eleifend fermentum.
-In sagittis tempor eros vel pretium.
-Lorem ipsum **dolor** sit amet, consectetur adipiscing elit.
-In sagittis tempor eros vel pretium.
-
-## Lorem ipsum
-
-Lorem ipsum **dolor** sit amet, consectetur adipiscing elit.
-Mauris *feugiat* dolor sed eleifend fermentum.
-In sagittis tempor eros vel pretium.
-Integer in pulvinar elit, rutrum fermentum nulla.
-
-- Suspendisse potenti.
-- Integer ornare ex quis dolor vestibulum posuere.
-
-Lorem ipsum **dolor** sit amet, consectetur adipiscing elit.
-Mauris *feugiat* dolor sed eleifend fermentum.
-In sagittis tempor eros vel pretium.
-Integer in pulvinar elit, rutrum fermentum nulla.
-
-{{< img src="images/shield-frog.jpg" alt="Cover art of Shield Frog" >}}
-
-Lorem ipsum **dolor** sit amet, consectetur adipiscing elit.
-Mauris *feugiat* dolor sed eleifend fermentum.
-In sagittis tempor eros vel pretium.
-Integer in pulvinar elit, rutrum fermentum nulla.
+Listen below (or on [SoundCloud](https://soundcloud.com/colorglitch/shield-frog-remastered))
+and scroll further down to read some backstory on this song.
 
 {{< audio src="audio/shield-frog.mp3" >}}
 
-Mauris *feugiat* dolor sed eleifend fermentum.
-In sagittis tempor eros vel pretium.
-Lorem ipsum **dolor** sit amet, consectetur adipiscing elit.
-Mauris *feugiat* dolor sed eleifend fermentum.
-In sagittis tempor eros vel pretium.
-Lorem ipsum **dolor** sit amet, consectetur adipiscing elit.
-In sagittis tempor eros vel pretium.
+{{< img src="images/shield-frog.jpg" alt="Cover art of Shield Frog" >}}
+
+## Backstory
+
+This song is nostalgic to me.
+
+It reminds me of the times where I was a part of a *very* underground producer scene on SoundCloud.
+I talked a lot with these people on Discord and I can fondly remember most of them.
+Also, it was the first song where I started to get a decent grip on producing.
+
+I used this song for applying to a music college, and &mdash; after I got in &mdash; we listened to this song in class.
+Which was a **nerve-racking** experience.
+
+(I find it really uncomfortable to listen to my music with other people, you don't even understand.)
+
+However, I had a great time at the music college and met lots of awesome people.
+This song reminds me of all that.
+
+Nowadays, this song is a half-meme.

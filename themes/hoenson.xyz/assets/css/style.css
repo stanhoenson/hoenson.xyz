@@ -198,6 +198,10 @@ article {
     margin-bottom: 3rem;
 }
 
+audio + figure {
+    margin-top: 0;
+}
+
 figure {
     margin-top: 3rem;
     margin-bottom: 2.5rem;
