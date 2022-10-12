@@ -44,24 +44,24 @@
     --sans-serif: "Greycliff", arial, sans-serif;
     --monospace: "Cartograph", menlo, monospace;
 
-    --base1: hsl(0, 0%, 10%);
-    --base2: hsl(0, 0%, 20%);
-    --base3: hsl(0, 0%, 30%);
-    --base4: hsl(0, 0%, 40%);
-    --base5: hsl(0, 0%, 50%);
-    --base6: hsl(0, 0%, 60%);
-    --base7: hsl(0, 0%, 70%);
-    --base8: hsl(0, 0%, 80%);
+    --base1: hsl(0, 0%, 5%);
+    --base2: hsl(0, 0%, 15%);
+    --base3: hsl(0, 0%, 25%);
+    --base4: hsl(0, 0%, 35%);
+    --base5: hsl(0, 0%, 45%);
+    --base6: hsl(0, 0%, 55%);
+    --base7: hsl(0, 0%, 65%);
+    --base8: hsl(0, 0%, 75%);
     --base9: hsl(0, 0%, 90%);
 
     --grey: hsl(0, 0%, 95%);
 
-    --mustard1: hsl(50, 55%, 35%);
+    --mustard1: hsl(50, 65%, 30%);
     --mustard2: hsl(50, 75%, 75%);
-    --neon-pink1: hsl(350, 100%, 45%);
-    --neon-pink2: hsl(350, 100%, 65%);
-    --neon-pink3: hsl(350, 100%, 85%);
-    --neon-pink4: hsl(350, 100%, 97.5%);
+    --neon-pink1: hsl(350, 90%, 45%);
+    --neon-pink2: hsl(350, 90%, 65%);
+    --neon-pink3: hsl(350, 90%, 85%);
+    --neon-pink4: hsl(350, 90%, 97.5%);
 }
 
 /* "Document Typography" */
