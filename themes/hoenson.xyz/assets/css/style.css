@@ -513,6 +513,10 @@ footer p {
         font-size: 1.9rem;
     }
 
+    article header h5 {
+        font-size: 1rem;
+    }
+
     footer {
         padding-bottom: 3rem;
         margin-top: 3rem;
