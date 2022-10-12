@@ -239,7 +239,18 @@ article header {
     padding: 1.5rem;
     background-color: white;
     border-radius: 0.5rem;
+    margin-bottom: 3rem;
 }
+
+/*
+article header {
+    padding: 1.5rem;
+    padding-bottom: 4rem;
+    background: linear-gradient(180deg, white 0%, var(--grey) 100%);
+    border-radius: 0.5rem;
+    margin-bottom: 0;
+}
+*/
 
 article header h5 {
     color: var(--base8);
@@ -253,6 +264,28 @@ article header h5 time {
 
 article header .tags {
     margin-top: 2rem;
+}
+
+.enjoy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.enjoy .bar {
+    flex-basis: 100%;
+    height: 1px;
+    background-color: var(--base9);
+}
+
+.enjoy p {
+    color: var(--base5);
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 0.75rem;
+    margin-bottom: 0;
 }
 
 a.secondary:hover,
@@ -507,6 +540,10 @@ footer p {
     .end,
     article header {
         padding: 1rem;
+    }
+
+    article header {
+        margin-bottom: 2rem;
     }
 
     article header h1 {
