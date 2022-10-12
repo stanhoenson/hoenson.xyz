@@ -3,13 +3,13 @@
     <nav>
         {{ $currentPage := . }}
         {{ range .Site.Menus.header }}
-        <h5>
-            {{ if $currentPage.IsMenuCurrent "header" . }}
-                <a class="active" href="{{ .URL }}">{{ .Name }}</a>
-            {{ else }}
-                <a class="secondary" href="{{ .URL }}">{{ .Name }}</a>
-            {{ end }}
+            <h5>
+                {{ if $currentPage.IsMenuCurrent "header" . }}
+                    <a class="active" href="{{ .URL }}">{{ .Name }}</a>
+                {{ else }}
+                    <a class="secondary" href="{{ .URL }}">{{ .Name }}</a>
+                {{ end }}
+            </h5>
         {{ end }}
-        </h5>
     </nav>
 </header>

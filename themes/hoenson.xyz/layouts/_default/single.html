@@ -31,13 +31,6 @@
                 </div>
             {{ end }}
         </header>
-        <!--
-        <div class="enjoy">
-            <div class="bar"></div>
-            <p>Enjoy</p>
-            <div class="bar"></div>
-        </div>
-        -->
         {{ .Content }}
     </article>
     <div class="end card">
@@ -61,14 +54,13 @@
         {{ $posts := where site.RegularPages "Kind" "page" }}
         {{ with $posts.ByDate.Reverse.Prev . }}
             <div class="previous">
-                <!-- <span class="uppercase">Previous</span><br> -->
-                <a class="uppercase" href="{{ .RelPermalink }}">Previous</a><br>
+                <span class="uppercase">Previous</span><br>
                 <a class="secondary" href="{{ .RelPermalink }}">{{ .Title }}</a>
             </div>
         {{ end }}
         {{ with $posts.ByDate.Reverse.Next . }}
             <div class="next">
-                <a class="uppercase" href="{{ .RelPermalink }}">Next</a><br>
+                <span class="uppercase">Next</span><br>
                 <a class="secondary" href="{{ .RelPermalink }}">{{ .Title }}</a>
             </div>
         {{ end }}

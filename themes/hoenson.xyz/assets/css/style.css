@@ -33,13 +33,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: "Cartograph";
-    src: url("../typefaces/cartograph/CartographCF-Bold.woff2");
-    font-weight: bold;
-    font-style: normal;
-}
-
 :root {
     --sans-serif: "Greycliff", arial, sans-serif;
     --monospace: "Cartograph", menlo, monospace;
@@ -246,16 +239,6 @@ article header {
     margin-bottom: 3rem;
 }
 
-/*
-article header {
-    padding: 1.5rem;
-    padding-bottom: 4rem;
-    background: linear-gradient(180deg, white 0%, var(--grey) 100%);
-    border-radius: 0.5rem;
-    margin-bottom: 0;
-}
-*/
-
 article header h5 {
     color: var(--base8);
     font-weight: normal;
@@ -270,28 +253,6 @@ article header .tags {
     margin-top: 2rem;
 }
 
-.enjoy {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 3rem;
-}
-
-.enjoy .bar {
-    flex-basis: 100%;
-    height: 1px;
-    background-color: var(--base9);
-}
-
-.enjoy p {
-    color: var(--base5);
-    font-weight: normal;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 0 0.75rem;
-    margin-bottom: 0;
-}
-
 a.secondary:hover,
 a.active {
     color: var(--neon-pink1);
@@ -303,6 +264,7 @@ a.secondary {
     text-decoration: none;
 }
 
+span.uppercase,
 a.uppercase {
     transition: color 150ms;
     color: var(--base3);

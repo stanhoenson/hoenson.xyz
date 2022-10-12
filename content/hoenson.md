@@ -6,6 +6,7 @@ categories: Websites
 tags:
 - Hugo
 - Programming
+- Web Design
 ---
 
 Lorem ipsum **dolor** sit amet, consectetur adipiscing elit.
