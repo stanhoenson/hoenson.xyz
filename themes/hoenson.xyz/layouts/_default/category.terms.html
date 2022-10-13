@@ -11,7 +11,7 @@
                         <a href="{{ $url }}">here</a>)
                     </h5>
                 </div>
-                {{ range first 3 .Pages }}
+                {{ range first 3 .Pages.ByDate.Reverse }}
                     <div class="post">
                         <p>
                             {{ $category := .Params.categories }}
