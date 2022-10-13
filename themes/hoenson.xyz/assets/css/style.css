@@ -55,6 +55,10 @@
     --neon-pink2: hsl(350, 90%, 65%);
     --neon-pink3: hsl(350, 90%, 85%);
     --neon-pink4: hsl(350, 90%, 97.5%);
+    --deep-blue1: hsl(220, 100%, 45%);
+    --deep-blue2: hsl(220, 100%, 65%);
+    --deep-blue3: hsl(220, 100%, 85%);
+    --deep-blue4: hsl(220, 100%, 97.5%);
 }
 
 /* "Document Typography" */
@@ -424,6 +428,27 @@ a.active {
     flex-wrap: wrap;
     gap: 0.5rem;
 }
+
+/*
+a.tag {
+    transition: border 150ms;
+    display: inline-block;
+    font-family: var(--monospace);
+    color: var(--deep-blue1);
+    font-size: 0.9rem;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: lowercase;
+    padding: 0.25rem 0.75rem;
+    background-color: var(--deep-blue4);
+    border: 1px solid var(--deep-blue3);
+    border-radius: 2rem;
+}
+
+a.tag:hover {
+    border: 1px solid var(--deep-blue2);
+}
+*/
 
 a.tag {
     transition: border 150ms;
