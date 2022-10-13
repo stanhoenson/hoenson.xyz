@@ -17,8 +17,7 @@
             <div class="post">
                 <p>
                     {{ $category := .Params.categories }}
-                    {{ $url := printf "/categories/%s" $category | lower }}
-                    <a class="uppercase" href="{{ $url }}">
+                    <a class="uppercase" href="/categories/{{ $category | urlize }}">
                         {{ strings.TrimSuffix "s" $category }}
                     </a>
                     | <time>{{ .Date.Format "January 2, 2006" }}</time>

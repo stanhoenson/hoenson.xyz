@@ -14,19 +14,15 @@
             <h1>{{ .Title }}</h1>
             <h5>
                 {{ $category := .Params.categories }}
-                {{ $url := printf "/categories/%s" $category | lower }}
-                <a class="uppercase" href="{{ $url }}">
+                <a class="uppercase" href="/categories/{{ $category | urlize }}">
                     {{ strings.TrimSuffix "s" $category }}
                 </a>
-                | 
-                <time>{{ .Date.Format "January 2, 2006" }}</time>
+                | <time>{{ .Date.Format "January 2, 2006" }}</time>
             </h5>
-            {{ $tags := .Params.tags }}
-            {{ if isset .Params "tags" }}
+            {{ with .Params.tags }}
                 <div class="tags">
-                    {{ range .Params.tags }}
-                        {{ $url := printf "/tags/%s" . | lower }}
-                        <a class="tag" href="{{ $url }}">{{ . }}</a>
+                    {{ range . }}
+                        <a class="tag" href="/tags/{{ . | urlize }}">{{ . }}</a>
                     {{ end }}
                 </div>
             {{ end }}
@@ -34,11 +30,10 @@
         {{ .Content }}
     </article>
     <div class="end">
-        {{ $tags := .Params.tags }}
-        {{ if isset .Params "tags" }}
+        {{ with .Params.tags }}
             <h4>Tags</h4>
             <div class="tags">
-                {{ range .Params.tags }}
+                {{ range . }}
                     <a class="tag" href="/tags/{{ . | urlize }}">{{ . }}</a>
                 {{ end }}
             </div>

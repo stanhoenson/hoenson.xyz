@@ -7,7 +7,7 @@
                     <h2>Latest {{ .Name }}</h2>
                     <h5 class="secondary">
                         (Or check out all {{ .Name }}
-                        {{ $url := printf "/categories/%s" .Name | lower }}
+                        {{ $url := printf "/categories/%s" .Name | urlize }}
                         <a href="{{ $url }}">here</a>)
                     </h5>
                 </div>
@@ -15,12 +15,10 @@
                     <div class="post">
                         <p>
                             {{ $category := .Params.categories }}
-                            {{ $url := printf "/categories/%s" $category | lower }}
-                            <a class="uppercase" href="{{ $url }}">
+                            <a class="uppercase" href="/categories/{{ $category | urlize }}">
                                 {{ strings.TrimSuffix "s" $category }}
                             </a>
-                            | 
-                            <time>{{ .Date.Format "January 2, 2006" }}</time>
+                            | <time>{{ .Date.Format "January 2, 2006" }}</time>
                         </p>
                         <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
                     </div>

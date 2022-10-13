@@ -2,9 +2,9 @@
     {{ .Content }}
     <div class="tags">
         {{ range .Data.Terms.Alphabetical }}
-                <a class="tag" href="{{ .Page.Permalink }}">
-                    {{ .Page.Title }}
-                </a>
+            <a class="tag" href="{{ .Page.Permalink }}">
+                {{ .Page.Title }}
+            </a>
         {{ end }}
     </div>
 {{ end }}
