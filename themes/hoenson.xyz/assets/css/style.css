@@ -220,6 +220,23 @@ footer {
     margin-top: 6rem;
 }
 
+/* Safari Styling */
+
+p a,
+h4 a {
+    -webkit-text-decoration-line: underline !important;
+    -webkit-text-decoration-color: var(--mustard2) !important;
+}
+
+p a:hover,
+h4 a:hover {
+    -webkit-text-decoration-color: var(--mustard1) !important;
+}
+
+p a.uppercase {
+    -webkit-text-decoration-line: none !important;
+}
+
 /* "Specialized Styling" */
 
 header h5 {
