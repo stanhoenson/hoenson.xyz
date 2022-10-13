@@ -281,16 +281,20 @@ a.active {
     text-decoration: none;
 }
 
-.posts#best {
+.posts {
     margin-bottom: 4rem;
 }
 
-.posts {
-    margin-top: 1rem;
+.posts:last-child {
+    margin-bottom: 0;
 }
 
 .posts > *:last-child {
     margin-bottom: 0;
+}
+
+.posts + .title + .post {
+    margin-top: 1rem;
 }
 
 .post {
@@ -362,6 +366,7 @@ a.active {
 .title {
     padding-bottom: 1rem;
     border-bottom: 1px solid var(--base9);
+    margin-bottom: 1rem;
 }
 
 .title h2 {

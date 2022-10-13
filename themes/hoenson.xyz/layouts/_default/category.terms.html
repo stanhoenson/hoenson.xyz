@@ -1,8 +1,37 @@
 {{ define "main" }}
     {{ .Content }}
+    {{ range .Data.Terms.Alphabetical }}
+        <div class="posts">
+            <div class="post">
+                <div class="title">
+                    <h2>Latest {{ .Name }}</h2>
+                    <h5 class="secondary">
+                        (Or check out all {{ .Name }}
+                        {{ $url := printf "/categories/%s" .Name | lower }}
+                        <a href="{{ $url }}">here</a>)
+                    </h5>
+                </div>
+                {{ range first 3 .Pages }}
+                    <div class="post">
+                        <p>
+                            {{ $category := .Params.categories }}
+                            {{ $url := printf "/categories/%s" $category | lower }}
+                            <a class="uppercase" href="{{ $url }}">
+                                {{ strings.TrimSuffix "s" $category }}
+                            </a>
+                            | 
+                            <time>{{ .Date.Format "January 2, 2006" }}</time>
+                        </p>
+                        <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+                    </div>
+                {{ end }}
+            </div>
+        </div>
+    {{ end }}
+    <!--
     <div class="terms">
         {{ range .Data.Terms.Alphabetical }}
-            <div class="term card">
+            <div class="term">
                 <h3>{{ .Count }}</h3>
                 <a class="link" href="{{ .Page.Permalink }}"></a>
                 <div class="info">
@@ -12,4 +41,5 @@
             </div>
         {{ end }}
     </div>
+    -->
 {{ end }}

@@ -9,10 +9,10 @@
             {{ end }}
         </nav>
     </header>
-    <div class="title">
-        <a class="tag" href="">{{ .Name }}</a>
-    </div>
-    <div class="posts card">
+    <div class="posts">
+        <div class="title">
+            <a class="tag" href="">{{ .Name }}</a>
+        </div>
         {{ range .Pages }}
             <div class="post">
                 <p>

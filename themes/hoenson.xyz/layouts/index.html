@@ -1,10 +1,10 @@
 {{ define "main" }}
     {{ .Content }}
-    <div class="title">
-        <h2>Best posts</h2>
-        <h5 class="secondary">The work I'm most proud of</h5>
-    </div>
-    <div class="posts card" id="best">
+    <div class="posts">
+        <div class="title">
+            <h2>Best posts</h2>
+            <h5 class="secondary">The work I'm most proud of</h5>
+        </div>
         {{ range where .Site.RegularPages "Params.weight" "!=" nil }}
             <div class="post">
                 <p>
@@ -20,11 +20,11 @@
             </div>
         {{ end }}
     </div>
-    <div class="title">
-        <h2>All posts</h2>
-        <h5 class="secondary">Everything from new to old</h5>
-    </div>
-    <div class="posts card">
+    <div class="posts">
+        <div class="title">
+            <h2>All posts</h2>
+            <h5 class="secondary">Everything from new to old</h5>
+        </div>
         {{ range .Site.RegularPages.ByDate.Reverse }}
             <div class="post">
                 <p>
