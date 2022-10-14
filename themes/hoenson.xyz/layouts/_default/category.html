@@ -14,7 +14,7 @@
         <h5 class="secondary">{{ .Params.description }}</h5>
     </div>
     <div class="posts">
-        {{ range .Pages }}
+        {{ range .Pages.ByDate.Reverse }}
             <div class="post">
                 <p>
                     {{ $category := .Params.categories }}
