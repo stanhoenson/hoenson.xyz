@@ -8,38 +8,13 @@ tags:
 weight: 3
 ---
 
-Lorem ipsum **dolor** sit amet, consectetur adipiscing elit.
-Mauris *feugiat* dolor sed eleifend fermentum.
-In [sagittis]() tempor eros vel pretium.
-Integer in pulvinar elit, rutrum fermentum nulla.
+The title says it all.
+This is a showcase of all my **worthwile** music I've made over the past 8 years of **on and off** production.
 
-Mauris *feugiat* dolor sed eleifend fermentum.
-In sagittis tempor eros vel pretium.
-Lorem ipsum **dolor** sit amet, consectetur adipiscing elit.
-Mauris *feugiat* dolor sed eleifend fermentum.
-In sagittis tempor eros vel pretium.
-Lorem ipsum **dolor** sit amet, consectetur adipiscing elit.
-In sagittis tempor eros vel pretium.
+It contains many different genres of electronic music and even some demo's where I sing, yikes.
 
-## Lorem ipsum
+You could see this mix as my **musical resume** from 2014 to 2022.
 
-Lorem ipsum **dolor** sit amet, consectetur adipiscing elit.
-Mauris *feugiat* dolor sed eleifend fermentum.
-In sagittis tempor eros vel pretium.
-Integer in pulvinar elit, rutrum fermentum nulla.
+(I used a SoundCloud embed for this one because it's a huge file and I'd like my website to remain low in size.)
 
-- Suspendisse potenti.
-- Integer ornare ex quis dolor vestibulum posuere.
-
-Lorem ipsum **dolor** sit amet, consectetur adipiscing elit.
-Mauris *feugiat* dolor sed eleifend fermentum.
-In sagittis tempor eros vel pretium.
-Integer in pulvinar elit, rutrum fermentum nulla.
-
-Mauris *feugiat* dolor sed eleifend fermentum.
-In sagittis tempor eros vel pretium.
-Lorem ipsum **dolor** sit amet, consectetur adipiscing elit.
-Mauris *feugiat* dolor sed eleifend fermentum.
-In sagittis tempor eros vel pretium.
-Lorem ipsum **dolor** sit amet, consectetur adipiscing elit.
-In sagittis tempor eros vel pretium.
+{{< ccc >}}
