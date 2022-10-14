@@ -67,7 +67,7 @@ html {
     min-height: 100vh;
     font-family: var(--sans-serif);
     color: var(--base2);
-    background: no-repeat linear-gradient(180deg, white 0%, var(--grey) 500px, var(--grey) 100%);
+    background-color: var(--grey);
 }
 
 * {
