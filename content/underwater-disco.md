@@ -20,20 +20,20 @@ and scroll further down to read some backstory on this song.
 
 ## Backstory
 
-I am incredibly proud of this one, it honestly brings tears to my eyes.
+I am incredibly proud of this song, it sometimes brings tears to my eyes when I listen to it.
 For now, this is my **magnum opus**.
 The stars truly aligned on this one.
 
-The song was meant to be a collaboration and get released on a compilation album.
+Originally, it was meant to be a collaboration and it would get released on a compilation album.
 There was a deadline and I started working hard on sending some ideas to my collaborator.
 
 He liked it, but had a hard time adding more to it.
 I continued working on it because of the deadline.
 A few weeks of flow and it was basically finished.
 I've never finished a song this fast.
-I love the result, I'm feeling ecstatic.
+I loved the result and felt absolutely ecsatic.
 
-The compilation got **cancelled**.
+The compilation gets **cancelled**.
 
 Well, that's a bummer.
 I'll just release it on my own then!
