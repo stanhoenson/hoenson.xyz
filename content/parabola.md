@@ -1,6 +1,6 @@
 ---
 title: "Parabola"
-date: 2022-10-14
+date: 2022-10-15
 draft: false
 categories: Demos
 tags:
