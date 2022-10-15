@@ -92,7 +92,9 @@ I've been lucky getting all of these with **huge** student discounts.
 ### Software
 
 - [Ableton Live 11 Suite](https://www.ableton.com/en/live/)
+- [Noir Labs Chain Shaper](https://www.noirlabs.co/products)
 - [Xfer Records Serum](https://xferrecords.com/products/serum/)
+- [Minimal Audio Rift](https://www.minimal.audio/products/rift)
 - [FabFilter Mixing Bundle](https://www.fabfilter.com/shop/mixing-bundle)
 - [Kilohearts Ultimate](https://kilohearts.com/products/kilohearts_ultimate)
 - [XLN Audio Addictive Drums 2](https://www.xlnaudio.com/products/addictive_drums_2)
