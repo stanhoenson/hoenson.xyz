@@ -71,7 +71,7 @@ html {
 }
 
 * {
-    line-height: 1.6em;
+    line-height: 1.6;
 }
 
 h1,
@@ -81,7 +81,7 @@ h4,
 h5,
 h6 {
     color: var(--base2);
-    line-height: 1.2em;
+    line-height: 1.2;
     margin-top: 2rem;
     margin-bottom: 1rem;
 }
@@ -95,7 +95,7 @@ strong {
 
 h1 {
     font-size: 3.8rem;
-    line-height: 1.1em;
+    line-height: 1.1;
     margin-top: 0;
     margin-bottom: 0.5rem;
 }
@@ -137,7 +137,7 @@ p {
 ol,
 ul {
     list-style: disc;
-    line-height: 2em;
+    line-height: 2;
     margin-left: 1rem;
 }
 
@@ -152,7 +152,7 @@ li::marker {
 figcaption {
     color: var(--base5);
     font-size: 0.8rem;
-    line-height: 1.3rem;
+    line-height: 1.3;
     text-align: center;
     margin-top: 0.25rem;
 }
@@ -371,7 +371,7 @@ a.active {
 
 .term p {
     color: var(--base5);
-    line-height: 1.3em;
+    line-height: 1.3;
     margin-top: 0.25rem;
 }
 
