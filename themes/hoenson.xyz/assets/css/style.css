@@ -66,6 +66,7 @@
 html {
     min-height: 100vh;
     font-family: var(--sans-serif);
+    font-size: 18px;
     color: var(--base2);
     background-color: var(--grey);
 }
