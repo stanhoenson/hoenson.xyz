@@ -64,7 +64,6 @@
 /* "Document Typography" */
 
 html {
-    min-height: 100vh;
     font-family: var(--sans-serif);
     font-size: 18px;
     color: var(--base2);
@@ -83,8 +82,8 @@ h5,
 h6 {
     color: var(--base2);
     line-height: 1.2;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-top: 4rem;
+    margin-bottom: .5rem;
 }
 
 h1,
@@ -98,7 +97,7 @@ h1 {
     font-size: 3.8rem;
     line-height: 1.1;
     margin-top: 0;
-    margin-bottom: 0.5rem;
+    margin-bottom: .5rem;
 }
 
 h2 {
@@ -132,7 +131,7 @@ em {
 ol,
 ul,
 p {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 ol,
@@ -152,10 +151,10 @@ li::marker {
 
 figcaption {
     color: var(--base5);
-    font-size: 0.8rem;
+    font-size: .8rem;
     line-height: 1.3;
     text-align: center;
-    margin-top: 0.25rem;
+    margin-top: .25rem;
 }
 
 a {
@@ -163,7 +162,7 @@ a {
     color: var(--mustard1);
     font-weight: bold;
     text-decoration: 2px underline var(--mustard2);
-    text-underline-offset: 0.1em;
+    text-underline-offset: .1em;
 }
 
 a:hover {
@@ -209,7 +208,7 @@ figure {
 img,
 audio {
     width: 100%;
-    border-radius: 0.5rem;
+    border-radius: .5rem;
 }
 
 audio {
@@ -260,7 +259,7 @@ header h5 a {
 article header {
     padding: 1.5rem;
     background-color: white;
-    border-radius: 0.5rem;
+    border-radius: .5rem;
     margin-bottom: 3rem;
 }
 
@@ -353,7 +352,7 @@ a.active {
     flex-basis: 48%;
     padding: 1rem;
     background-color: white;
-    border-radius: 0.5rem;
+    border-radius: .5rem;
 }
 
 .term h3 {
@@ -361,7 +360,7 @@ a.active {
     color: var(--base3);
     font-weight: bold;
     padding-right: 1.5rem;
-    padding-left: 0.5rem;
+    padding-left: .5rem;
 }
 
 .term h3,
@@ -373,7 +372,7 @@ a.active {
 .term p {
     color: var(--base5);
     line-height: 1.3;
-    margin-top: 0.25rem;
+    margin-top: .25rem;
 }
 
 .term a.link {
@@ -407,14 +406,14 @@ a.active {
 .end {
     padding: 1.5rem;
     background-color: white;
-    border-radius: 0.5rem;
+    border-radius: .5rem;
     margin-bottom: 3rem;
 }
 
 .end h4 {
     font-weight: bold;
     margin-top: 2rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: .5rem;
 }
 
 .end h4:first-child {
@@ -428,40 +427,19 @@ a.active {
 .tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
+    gap: .5rem;
 }
-
-/*
-a.tag {
-    transition: border 150ms;
-    display: inline-block;
-    font-family: var(--monospace);
-    color: var(--deep-blue1);
-    font-size: 0.9rem;
-    font-weight: normal;
-    text-decoration: none;
-    text-transform: lowercase;
-    padding: 0.25rem 0.75rem;
-    background-color: var(--deep-blue4);
-    border: 1px solid var(--deep-blue3);
-    border-radius: 2rem;
-}
-
-a.tag:hover {
-    border: 1px solid var(--deep-blue2);
-}
-*/
 
 a.tag {
     transition: border 150ms;
     display: inline-block;
     font-family: var(--monospace);
     color: var(--neon-pink1);
-    font-size: 0.9rem;
+    font-size: .9rem;
     font-weight: normal;
     text-decoration: none;
     text-transform: lowercase;
-    padding: 0.25rem 0.75rem;
+    padding: .25rem .75rem;
     background-color: var(--neon-pink4);
     border: 1px solid var(--neon-pink3);
     border-radius: 2rem;
@@ -514,6 +492,10 @@ footer p {
 }
 
 @media (max-width: 42rem) {
+    html {
+        font-size: 17px;
+    }
+
     body {
         padding: 1rem;
     }
@@ -547,7 +529,7 @@ footer p {
     }
 
     a.tag {
-        font-size: 0.8rem;
+        font-size: .8rem;
     }
 
     .terms {
