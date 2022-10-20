@@ -70,7 +70,6 @@
 
 html {
     font-family: var(--sans-serif);
-    font-size: 18px;
     color: var(--base1);
     background-color: white;
 }
@@ -160,7 +159,6 @@ figcaption {
 }
 
 a {
-    transition: text-decoration 150ms;
     color: var(--mustard1);
     font-weight: bold;
     text-decoration: 2px underline var(--mustard2);
@@ -174,7 +172,7 @@ a:hover {
 /* "Document Spacing" */
 
 body {
-    max-width: 36rem;
+    max-width: 38rem;
     padding: 6rem 1rem;
     margin: 0 auto;
 }
@@ -285,14 +283,12 @@ a.active {
 }
 
 a.secondary {
-    transition: color 150ms;
     color: var(--base5);
     text-decoration: none;
 }
 
 span.uppercase,
 a.uppercase {
-    transition: color 150ms;
     color: var(--base3);
     font-weight: bold;
     text-decoration: none;
@@ -433,7 +429,6 @@ a.active {
 }
 
 a.tag {
-    transition: border 150ms;
     display: inline-block;
     font-family: var(--monospace);
     color: var(--neon-pink1);
@@ -494,10 +489,6 @@ footer p {
 }
 
 @media (max-width: 42rem) {
-    html {
-        font-size: 17px;
-    }
-
     body {
         padding: 1rem;
     }
@@ -558,5 +549,17 @@ footer p {
     footer {
         padding-bottom: 3rem;
         margin-top: 3rem;
+    }
+}
+
+@media screen and (min-width: 60em) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 120em) {
+    html {
+        font-size: 22px;
     }
 }
