@@ -67,7 +67,7 @@ html {
     font-family: var(--sans-serif);
     font-size: 18px;
     color: var(--base1);
-    background-color: var(--grey);
+    background-color: white;
 }
 
 * {
@@ -255,7 +255,7 @@ header h5 a {
 
 article header {
     padding: 1.5rem;
-    background-color: white;
+    background-color: var(--grey);
     border-radius: .5rem;
     margin-bottom: 3rem;
 }
@@ -348,7 +348,7 @@ a.active {
     align-items: center;
     flex-basis: 48%;
     padding: 1rem;
-    background-color: white;
+    background-color: var(--grey);
     border-radius: .5rem;
 }
 
@@ -402,7 +402,7 @@ a.active {
 
 .end {
     padding: 1.5rem;
-    background-color: white;
+    background-color: var(--grey);
     border-radius: .5rem;
     margin-bottom: 3rem;
 }
