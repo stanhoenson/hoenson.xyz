@@ -246,6 +246,13 @@ p a.uppercase {
 
 /* "Specialized Styling" */
 
+header h2 {
+    font-size: 3.8rem;
+    line-height: 1.1;
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
 header h5 {
     color: var(--base5);
     margin-top: 0;
@@ -497,7 +504,8 @@ footer p {
         font-size: 1rem;
     }
 
-    h1 {
+    h1,
+    header h2 {
         font-size: 3rem;
     }
 
