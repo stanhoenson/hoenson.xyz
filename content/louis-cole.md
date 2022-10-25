@@ -4,7 +4,7 @@ date: 2022-10-17
 draft: false
 categories: Articles
 tags:
-- Music
+- Praise
 - Inspiration
 ---
 
