@@ -1,5 +1,5 @@
 {{ $file := resources.GetMatch (.Get "src") }}
-{{ $file := $file.Resize "1080x webp q100" }}
+{{ $file := $file.Resize "900x Lanczos webp q90" }}
 
 <figure>
     <img
