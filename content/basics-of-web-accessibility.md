@@ -1,7 +1,7 @@
 ---
 title: "The Basics of Web Accessibility"
 date: 2022-10-28
-draft: false
+draft: true
 categories: Articles
 tags:
 - accessibility
