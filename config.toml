@@ -2,3 +2,6 @@ baseURL = 'http://hoenson.xyz/'
 languageCode = 'en-us'
 title = 'Stan Hoenson'
 theme = 'hoenson.xyz'
+[params]
+    author = 'Stan Hoenson'
+    description = 'A personal website'

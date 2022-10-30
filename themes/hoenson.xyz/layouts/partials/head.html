@@ -1,9 +1,30 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ .Title }} | {{ .Site.Title }}</title>
+    <meta name="author" content="{{ .Site.Params.author }}">
+    <meta name="description" content="
+        {{- with .Page.Description -}}
+            {{ . }}
+        {{- else -}}
+            {{ .Site.Params.description }}
+        {{- end -}}">
+    <title>
+        {{- if .Page.IsHome -}}
+            {{ .Site.Title }}
+        {{- else -}}
+            {{ .Title }} | {{ .Site.Title }}
+        {{- end -}}
+    </title>
     {{ $reset := resources.Get "css/reset.css" | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $reset.RelPermalink }}">
     {{ $style := resources.Get "css/style.css" | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+    {{ range .AlternativeOutputFormats -}} 
+        {{- $link := `<link rel="%s" type="%s" href="%s" title="%s" />` -}}
+        {{- $title := printf "%s | %s" $.Page.Title $.Site.Title -}}
+        {{- if $.Page.IsHome -}}
+            {{ $title = $.Site.Title }} 
+        {{- end -}}
+        {{ printf $link .Rel .MediaType.Type .Permalink $title | safeHTML }} 
+    {{- end }}
 </head>
