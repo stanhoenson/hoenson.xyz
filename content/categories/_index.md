@@ -2,6 +2,8 @@
 title: "Categories"
 date: 2022-10-07
 draft: false
-menu: "header"
+menu:
+    main:
+        weight: 2
 ---
 

@@ -2,7 +2,9 @@
 title: "About"
 date: 2022-10-07
 draft: false
-menu: "header"
+menu:
+    main:
+        weight: 4
 ---
 
 Hi, I’m a Dutch guy interested in **writing**, **computing**, **music** and much more.

@@ -1,10 +1,8 @@
 <footer>
     <nav>
-        <a class="secondary" href="/">Home</a>
-        <a class="secondary" href="/categories">Categories</a>
-        <a class="secondary" href="/tags">Tags</a>
-        <a class="secondary" href="/about">About</a>
-        <a class="secondary" href="/contact">Contact</a>
+        {{ range .Site.Menus.main }}
+            <a class="secondary" href="{{ .URL }}">{{ .Name }}</a>
+        {{ end }}
     </nav>
     <p>
         <time>2022</time>

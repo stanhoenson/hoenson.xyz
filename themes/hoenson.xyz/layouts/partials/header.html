@@ -2,9 +2,9 @@
     <h2>Stan Hoenson</h2>
     <nav>
         {{ $currentPage := . }}
-        {{ range .Site.Menus.header }}
+        {{ range .Site.Menus.main }}
             <h5>
-                {{ if $currentPage.IsMenuCurrent "header" . }}
+                {{ if $currentPage.IsMenuCurrent "main" . }}
                     <a class="active" href="{{ .URL }}">{{ .Name }}</a>
                 {{ else }}
                     <a class="secondary" href="{{ .URL }}">{{ .Name }}</a>

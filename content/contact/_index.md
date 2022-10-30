@@ -2,7 +2,9 @@
 title: "Contact"
 date: 2022-10-07
 draft: false
-menu: "header"
+menu:
+    main:
+        weight: 5
 ---
 
 Email me at **stan@hoenson.xyz** to say hi, ask a question or share something cool.
