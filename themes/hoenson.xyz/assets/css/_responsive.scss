@@ -69,6 +69,15 @@
     html {
         font-size: 18px;
     }
+
+    h1,
+    header h2 {
+        letter-spacing: -2px;
+    }
+
+    h2 {
+        letter-spacing: -1px;
+    }
 }
 
 @media screen and (min-width: 120em) {
