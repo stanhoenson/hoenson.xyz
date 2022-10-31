@@ -47,13 +47,6 @@ h2 {
     font-size: 2.4rem;
 }
 
-h3,
-h4,
-h5,
-h6 {
-    font-weight: 500;
-}
-
 h3 {
     font-size: 1.9rem;
 }
@@ -182,7 +175,7 @@ header {
         margin-bottom: 0;
 
         a {
-            font-weight: 500;
+            font-weight: normal;
         }
     }
 }
@@ -199,7 +192,6 @@ article {
             font-weight: normal;
 
             time {
-                font-weight: 500;
                 color: $base5;
             }
         }
