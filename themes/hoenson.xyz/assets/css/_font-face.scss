@@ -5,6 +5,7 @@
         url("../fonts/greycliff/woff/GreycliffCF-Medium.woff") format("woff");
     font-weight: normal;
     font-style: normal;
+    font-display: fallback;
 }
 
 @font-face {
@@ -14,6 +15,7 @@
         url("../fonts/greycliff/woff/GreycliffCF-MediumOblique.woff") format("woff");
     font-weight: normal;
     font-style: italic;
+    font-display: fallback;
 }
 
 @font-face {
@@ -23,6 +25,7 @@
         url("../fonts/greycliff/woff/GreycliffCF-Bold.woff") format("woff");
     font-weight: bold;
     font-style: normal;
+    font-display: fallback;
 }
 
 @font-face {
@@ -32,4 +35,5 @@
         url("../fonts/cartograph/woff/CartographCF-Light.woff") format("woff");
     font-weight: normal;
     font-style: normal;
+    font-display: fallback;
 }
