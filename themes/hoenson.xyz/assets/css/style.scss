@@ -41,10 +41,12 @@ h1 {
     line-height: 1.1;
     margin-top: 0;
     margin-bottom: .5rem;
+    letter-spacing: -.5px;
 }
 
 h2 {
     font-size: 2.4rem;
+    letter-spacing: -.5px;
 }
 
 h3 {
@@ -167,7 +169,7 @@ header {
         line-height: 1.1;
         margin-top: 0;
         margin-bottom: .5rem;
-        letter-spacing: -1px;
+        letter-spacing: -1.5px;
     }
 
     h5 {
@@ -383,6 +385,10 @@ a.tag:hover {
 .previous,
 .next {
     flex-basis: 100%;
+
+    span.uppercase {
+        color: $base2;
+    }
 
     a.secondary {
         font-weight: normal;
