@@ -9,7 +9,7 @@ $monospace: "Cartograph", menlo, monospace;
 
 html {
     font-family: $sans-serif;
-    color: $base1;
+    color: $base2;
     background-color: white;
 }
 
@@ -23,6 +23,7 @@ h3,
 h4,
 h5,
 h6 {
+    color: $base1;
     line-height: 1.2;
     margin-top: 4rem;
     margin-bottom: .5rem;
@@ -31,6 +32,7 @@ h6 {
 h1,
 h2,
 strong {
+    color: $base1;
     font-weight: bold;
 }
 
