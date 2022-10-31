@@ -1,7 +1,6 @@
 @import "font-face";
 @import "color";
 @import "safari";
-@import "responsive";
 
 $sans-serif: "Greycliff", arial, sans-serif;
 $monospace: "Cartograph", menlo, monospace;
@@ -418,3 +417,5 @@ footer {
         }
     }
 }
+
+@import "responsive";
