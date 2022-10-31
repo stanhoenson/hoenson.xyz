@@ -17,7 +17,7 @@
     </title>
     {{ $reset := resources.Get "css/reset.css" | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $reset.RelPermalink }}">
-    {{ $style := resources.Get "css/style.css" | minify | fingerprint }}
+    {{ $style := resources.Get "css/style.scss" | toCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
     {{ range .AlternativeOutputFormats -}} 
         {{- $link := `<link rel="%s" type="%s" href="%s" title="%s" />` -}}

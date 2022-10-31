@@ -1,0 +1,78 @@
+@media (max-width: 42rem) {
+    body {
+        padding: 1rem;
+    }
+
+    * {
+        font-size: 1rem;
+    }
+
+    h1,
+    header h2 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 1.9rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+
+    h5 {
+        font-size: 1.1rem;
+    }
+
+    nav {
+        gap: 1rem 1.5rem;
+    }
+
+    a.tag {
+        font-size: .8rem;
+    }
+
+    .terms {
+        grid-template-columns: 1fr;
+    }
+
+    .end {
+        padding: 1rem;
+    }
+
+    article {
+        header {
+            margin-bottom: 2rem;
+            padding: 1rem;
+
+            h1 {
+                font-size: 1.9rem;
+            }
+
+            h5 {
+                font-size: 1rem;
+            }
+        }
+    }
+
+    footer {
+        padding-bottom: 3rem;
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (min-width: 60em) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 120em) {
+    html {
+        font-size: 22px;
+    }
+}

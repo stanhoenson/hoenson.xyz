@@ -1,0 +1,18 @@
+@import "color";
+
+.title h5.secondary a,
+p a,
+h4 a {
+    -webkit-text-decoration-line: underline !important;
+    -webkit-text-decoration-color: $mustard2 !important;
+}
+
+.title h5.secondary a:hover,
+p a:hover,
+h4 a:hover {
+    -webkit-text-decoration-color: $mustard1 !important;
+}
+
+p a.uppercase {
+    -webkit-text-decoration-line: none !important;
+}
