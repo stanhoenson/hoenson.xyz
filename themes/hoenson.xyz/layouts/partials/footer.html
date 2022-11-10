@@ -3,6 +3,9 @@
         {{ range .Site.Menus.main }}
             <a class="secondary" href="{{ .URL }}">{{ .Name }}</a>
         {{ end }}
+        {{ if .IsNode }}
+            <a class="secondary" href="./index.xml">RSS</a>
+        {{ end }}
     </nav>
     <p>
         <time>2022</time>
