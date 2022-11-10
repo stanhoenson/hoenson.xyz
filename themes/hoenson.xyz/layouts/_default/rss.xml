@@ -16,11 +16,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>
-            {{ if eq  .Title  .Site.Title }}
+            {{ if .Page.IsHome }}
                 {{ .Site.Title }}
             {{ else }}
                 {{ with .Title }}
-                    {{.}} on 
+                    {{.}} | 
                 {{ end }}
                 {{ .Site.Title }}
             {{ end }}
@@ -48,12 +48,12 @@
             </managingEditor>
         {{end}}
         {{ with .Site.Author.email }}
-        <webMaster>
-            {{.}}
-            {{ with $.Site.Author.name }}
-                ({{.}})
-            {{end}}
-        </webMaster>
+            <webMaster>
+                {{.}}
+                {{ with $.Site.Author.name }}
+                    ({{.}})
+                {{end}}
+            </webMaster>
         {{end}}
         {{ with .Site.Copyright }}
             <copyright>{{.}}</copyright>

@@ -5,11 +5,11 @@
             <div class="post">
                 <div class="title">
                     <h2>Latest {{ .Name }}</h2>
-                    <h5 class="secondary">
+                    <p class="subtitle">
                         (Or check out all {{ .Name }}
                         {{ $url := printf "/categories/%s" .Name | urlize }}
                         <a href="{{ $url }}">here</a>)
-                    </h5>
+                    </p>
                 </div>
                 {{ range first 3 .Pages.ByDate.Reverse }}
                     <div class="post">
