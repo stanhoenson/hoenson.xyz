@@ -10,13 +10,13 @@
     <article>
         <header>
             <h1>{{ .Title }}</h1>
-            <h5>
+            <div class="info">
                 {{ $category := .Params.categories }}
                 <a class="uppercase" href="/categories/{{ $category | urlize }}">
                     {{ strings.TrimSuffix "s" $category }}
                 </a>
                 | <time>{{ .Date.Format "January 2, 2006" }}</time>
-            </h5>
+            </div>
             {{ with .Params.tags }}
                 <div class="tags">
                     {{ range . }}
