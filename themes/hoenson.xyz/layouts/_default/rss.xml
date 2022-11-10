@@ -19,10 +19,7 @@
             {{ if .Page.IsHome }}
                 {{ .Site.Title }}
             {{ else }}
-                {{ with .Title }}
-                    {{.}} | 
-                {{ end }}
-                {{ .Site.Title }}
+                {{ .Title }} | {{ .Site.Title }}
             {{ end }}
         </title>
         <link>{{ .Permalink }}</link>
