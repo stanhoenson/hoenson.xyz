@@ -9,7 +9,7 @@
     </header>
     <div class="title">
         <h2>{{ .Title }}</h2>
-        <h5 class="secondary">{{ .Params.description }}</h5>
+        <p class="subtitle">{{ .Params.description }}</p>
     </div>
     <div class="posts">
         {{ range .Pages.ByDate.Reverse }}
