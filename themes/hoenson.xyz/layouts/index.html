@@ -3,7 +3,7 @@
     <div class="posts">
         <div class="title">
             <h2>Best posts</h2>
-            <h5 class="secondary">The work I'm most proud of</h5>
+            <p class="subtitle">The work I'm most proud of</p>
         </div>
         {{ range where .Site.RegularPages "Params.weight" "!=" nil }}
             <div class="post">
@@ -21,7 +21,7 @@
     <div class="posts">
         <div class="title">
             <h2>All posts</h2>
-            <h5 class="secondary">Everything from new to old</h5>
+            <p class="subtitle">Everything from new to old</p>
         </div>
         {{ range .Site.RegularPages.ByDate.Reverse }}
             <div class="post">
