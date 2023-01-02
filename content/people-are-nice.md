@@ -1,7 +1,7 @@
 ---
 title: "People Are Nice"
 date: 2022-10-14
-draft: false
+draft: true
 categories: Articles
 tags:
 - Gratitude

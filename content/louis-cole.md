@@ -1,7 +1,7 @@
 ---
 title: "Louis Cole"
 date: 2022-10-17
-draft: false
+draft: true
 categories: Articles
 tags:
 - Praise

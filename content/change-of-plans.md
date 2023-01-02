@@ -1,7 +1,7 @@
 ---
 title: "Change of Plans"
 date: 2022-10-19
-draft: false
+draft: true
 categories: Articles
 tags:
 - Web Design
