@@ -1,5 +1,6 @@
 {{ define "main" }}
     {{ .Content }}
+    <!--
     <div class="posts">
         <div class="title">
             <h2>Best posts</h2>
@@ -21,8 +22,9 @@
     <div class="posts">
         <div class="title">
             <h2>All posts</h2>
-            <p class="subtitle">Everything from new to old</p>
+            <p class="subtitle">In chronilogical order</p>
         </div>
+        -->
         {{ range .Site.RegularPages.ByDate.Reverse }}
             <div class="post">
                 <p>
